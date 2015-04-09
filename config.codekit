@@ -20,6 +20,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/assets\/img\/home-car.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5.71677e+06,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/home-car.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/home-car.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/home-mid.jpg": {
+		"fileType": 16384,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.05116e+06,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/home-mid.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/home-mid.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/assets\/js\/app.min.js": {
 		"fileType": 64,
 		"ignore": 1,

@@ -1,9 +1,13 @@
 .home {
 	.row {
-		position: relative;
+		// position: relative;
+		padding: 0;
+		margin: 0;
 		img {
 			height: 1130px;
-			width: 100%;
+			max-width: 2216px;
+			margin: 0 auto;
+			display: block;
 		}
 
 		.header {
@@ -14,5 +18,15 @@
 			top: 110px;
 			left: 25%;
 		}
+	}
+
+	#parallax { 
+		background: url(../img/home-mid.jpg) 50% 0 fixed; 
+		height: 450px;  
+		margin: 0 auto; 
+	    width: 100%; 
+	    position: relative; 
+	    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+	    padding: 200px 0;
 	}
 }
