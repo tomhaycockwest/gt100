@@ -11,6 +11,7 @@
 }
 .center-block {
   @include center-block;
+  float: none;
 }
 .pull-right {
   float: right !important;
