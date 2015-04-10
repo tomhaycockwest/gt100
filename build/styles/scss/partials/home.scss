@@ -34,13 +34,8 @@
 	    p {
 	    	text-align: center;
 
-	    	.btn {
-	    		border-radius: 25px;
-	    		background: rgba(255,255,255,0.12);
-	    		color: $white;
+	    	.btn-translucent {
 	    		font-size: 30px;
-	    		border: none;
-	    		box-shadow: 0 0 50px rgba(0,0,0,0.8);
 	    	}
 	    }
 	}
@@ -72,10 +67,10 @@
 
 	    	#rightCarBook,
 	    	#leftCarBook {
-	    		.btn {
-	    			border-radius: 25px;
-	    			color: $black;
-	    			background: $btnblue;
+	    		.btn-blue {
+	    			// border-radius: 25px;
+	    			// color: $black;
+	    			// background: $btnblue;
 	    			font-size: 28px;
 	    			float: right;
 	    		}
