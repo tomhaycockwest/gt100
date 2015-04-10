@@ -56,16 +56,30 @@
 	    color: #fff;
 
 	    .row {
-	    	text-align: center;
+	    	.center {
+	    		text-align: center;
+	    	}
 
 	    	#leftCar {
 	    		background:url(../img/home-aston.jpg);
 	    		height: 410px;
+	    		display: block;
 	    	}
 
 	    	#rightCar {
 	    		background:url(../img/home-porsche.jpg);
 	    		height: 410px;
+	    	}
+
+	    	#rightCarBook,
+	    	#leftCarBook {
+	    		.btn {
+	    			border-radius: 25px;
+	    			color: $black;
+	    			background: $btnblue;
+	    			font-size: 28px;
+	    			float: right;
+	    		}
 	    	}
 	    }
 	}
