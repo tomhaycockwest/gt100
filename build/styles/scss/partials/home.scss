@@ -81,6 +81,17 @@
 	    			float: right;
 	    		}
 	    	}
+
+	    	#showMeMore {
+
+	    		.btn {
+		    		border-radius: 25px;
+	    			color: $black;
+	    			background: $btnblue;
+	    			font-size: 28px;
+		    		text-align: center;
+	    		}
+	    	}
 	    }
 	}
 }
