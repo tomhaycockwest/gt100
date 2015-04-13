@@ -32,8 +32,25 @@
   height: 80px;
   background-color: $footerbg;
 
-  .copy {
-  	@extend .h4;
-  	color: $white;
+  .left-col {
+  	@extend .col-md-5;
+
+  	.copy {
+  		@extend .h4;
+  		color: $white;
+  		padding-top: 20px !important;
+  	}
+
+  	.icon-container {
+  		@extend .h4;
+  		padding-top: 20px !important;
+
+  		a {
+  			color: $white;
+  		}
+  	}
+
   }
+
+  
 }
