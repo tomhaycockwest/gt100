@@ -108,6 +108,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/assets\/img\/nav-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12421,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/nav-logo.png",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/nav-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/assets\/js\/app.min.js": {
 		"fileType": 64,
 		"ignore": 1,

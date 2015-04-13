@@ -1,8 +1,8 @@
 .home {
 	#intro { 
 		background: url(../img/home-car.jpg) 50% 0 no-repeat; 
-		height: 1130px;  
-		margin: 0 auto; 
+		height: 1013px;  
+		margin: -70px auto 0 auto; 
 	    width: 100%; 
 	    position: relative; 
 	    // box-shadow: 0 0 50px rgba(0,0,0,0.8);
@@ -13,12 +13,12 @@
 		color: $white;
 		position: absolute;
 		z-index: 1;
-		top: 174px;
+		top: 120px;
 		left: 25%;
 	}
 
 	#parallax { 
-		background: url(../img/home-mid.jpg) 50% 0 fixed; 
+		background: url(../img/home-mid.jpg) 50% 0 fixed no-repeat; 
 		height: 450px;  
 		margin: 0 auto; 
 	    width: 100%; 

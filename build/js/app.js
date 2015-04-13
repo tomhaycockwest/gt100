@@ -62,7 +62,7 @@ var App = {
 		this.listen();
 		// Application has been initalized
 		console.log(this.settings.name + "(v" + this.settings.version + ") Started");	
-		// setInterval(changeBackground, 3000);
+		setInterval(changeBackground, 3000);
 
 	}
 
