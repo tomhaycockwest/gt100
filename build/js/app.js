@@ -21,6 +21,21 @@ function changeBackground(){
 	}).fadeTo('slow', 1);
 }
 
+$(window).on('scroll', function() {
+    var y_scroll_pos = window.pageYOffset;
+    var scroll_pos_test = 10;
+
+    if(y_scroll_pos > scroll_pos_test) {
+        $('.navbar-brand > img').addClass('small', 'col-md-1');
+        $('li:first').removeClass('col-md-2');
+        $('.navbar').addClass('black');
+    } else {
+        $('.navbar-brand > img').removeClass('small', 'col-md-1');
+        $('li:first').addClass('col-md-2');
+        $('.navbar').removeClass('black');
+    }
+});
+
 
 $(function() { 
 	App.init();

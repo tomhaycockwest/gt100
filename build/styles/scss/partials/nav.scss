@@ -1,14 +1,54 @@
 .navbar {
+	padding: 25px;
 	.navbar-header {
 		margin: 0 auto;
 		display: block;
 		width: 97%;
 		ul {
+			float: right;
 			li {
+
+				&:nth-child(2) {
+					margin-left: 59px;
+				}
+				
 				a {
 					color: $white;
+
+					&:hover {
+						background-color: transparent;
+						border-bottom: solid 1px $navhover;
+					}
 				}
 			}
 		}
 	}
+}
+
+.navbar-brand > img {
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+}
+
+.small {
+	width: 70px;
+	height: 70px;
+}
+
+.black {
+	background: $black;
+	height: 110px;
+}
+
+.navbar-brand {
+	padding-top: 0 !important;
+	margin-right: 60px !important;
+
+	
+	&:hover {
+		border-bottom: none !important;
+	}
+	
 }
