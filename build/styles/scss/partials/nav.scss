@@ -1,0 +1,14 @@
+.navbar {
+	.navbar-header {
+		margin: 0 auto;
+		display: block;
+		width: 97%;
+		ul {
+			li {
+				a {
+					color: $white;
+				}
+			}
+		}
+	}
+}
