@@ -26,16 +26,19 @@
 	}
 
 	.car-viewer-page-container {
-		background: red;
+		margin-top: -375px;
 
 		.car-viewer-container {
 			@extend .col-md-6;
-			background: blue;
 			padding: 0;
+
+			.no-padding {
+				padding: 0;
+				margin-left: 2%;
+			}
 
 			.feature-image {
 				@extend .col-md-12;
-				background: gray;
 				padding: 0;
 
 				img {
@@ -46,6 +49,38 @@
 			.thumb {
 				@extend .col-md-3;
 				padding: 0;
+			}
+
+			.car-description-container {
+				@extend .col-md-6;
+				color: $white;
+
+				.btn-blue {
+					font-size: 36px;
+					border-radius: 33px;
+				}
+
+				.car-description-title {
+
+					h1 {
+						margin-left: 2px;
+					}
+
+					h2 {
+						margin-top: -15px;
+					}
+				}
+			}
+
+			.car-description {
+				@extend .col-md-6;
+				color: $white;
+				font-size: 25px;
+				background: #434343;
+
+				p {
+					padding-left: 15px;
+				}
 			}
 		}
 	}
