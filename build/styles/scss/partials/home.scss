@@ -1,93 +1,97 @@
-.home {
-	#intro { 
-		background: url(../img/home-car.jpg) 50% 0 no-repeat; 
-		height: 1013px;  
-		margin: -70px auto 0 auto; 
-	    width: 100%; 
-	    position: relative; 
-	    // box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	}
+#intro { 
+	background: url("#{$img-url}/home-car.jpg") 50% 0 no-repeat; 
+	height: 1013px;  
+	margin: -70px auto 0 auto; 
+    width: 100%; 
+    position: relative; 
+    // box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
 
-    .header {
-		text-align: center;
-		color: $white;
-		position: absolute;
-		z-index: 1;
-		top: 120px;
-		left: 25%;
-	}
+.header-home {
+	text-align: center;
+	color: $white;
+	position: absolute;
+	z-index: 1;
+	top: 120px;
+	left: 25%;
+}
 
-	#parallax { 
-		background: url(../img/home-mid.jpg) 50% 0 fixed no-repeat; 
-		height: 450px;  
-		margin: 0 auto; 
-	    width: 100%; 
-	    position: relative; 
-	    // box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	    padding: 200px 0;
+.header {
+	text-align: center;
+	color: $white;
+	margin-top: 135px;
+}
 
-	    h1 {
-	    	text-align: center;
-	    	color: $white;
-	    }
+#parallax { 
+	background: url("#{$img-url}/home-mid.jpg") 50% 0 fixed no-repeat; 
+	height: 450px;  
+	margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    // box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 200px 0;
 
-	    p {
-	    	text-align: center;
+    h1 {
+    	text-align: center;
+    	color: $white;
+    }
 
-	    	.btn-translucent {
-	    		font-size: 30px;
-	    	}
-	    }
-	}
+    p {
+    	text-align: center;
 
-	#ourCars { 
-		background: $black; 
-		margin: 0 auto; 
-	    width: 100%; 
-	    position: relative; 
-	    // box-shadow: 0 0 50px rgba(0,0,0,0.8);
-	    padding: 100px 0 4px 0;
-	    color: #fff;
+    	.btn-translucent {
+    		font-size: 30px;
+    	}
+    }
+}
 
-	    .row {
-	    	.center {
+#ourCars { 
+	background: $black; 
+	margin: 0 auto; 
+    width: 100%; 
+    position: relative; 
+    // box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    padding: 100px 0 4px 0;
+    color: #fff;
+
+    .row {
+    	.center {
+    		text-align: center;
+    	}
+
+    	#leftCar {
+    		background:url("#{$img-url}/home-aston.jpg");
+    		height: 410px;
+    		display: block;
+    	}
+
+    	#rightCar {
+    		background:url("#{$img-url}/home-porsche.jpg");
+    		height: 410px;
+    	}
+
+    	#rightCarBook,
+    	#leftCarBook {
+    		.btn-blue {
+    			// border-radius: 25px;
+    			// color: $black;
+    			// background: $btnblue;
+    			font-size: 28px;
+    			float: right;
+    		}
+    	}
+
+    	#showMeMore {
+
+    		.btn {
+	    		border-radius: 25px;
+    			color: $black;
+    			background: $btnblue;
+    			font-size: 28px;
 	    		text-align: center;
-	    	}
-
-	    	#leftCar {
-	    		background:url(../img/home-aston.jpg);
-	    		height: 410px;
 	    		display: block;
-	    	}
-
-	    	#rightCar {
-	    		background:url(../img/home-porsche.jpg);
-	    		height: 410px;
-	    	}
-
-	    	#rightCarBook,
-	    	#leftCarBook {
-	    		.btn-blue {
-	    			// border-radius: 25px;
-	    			// color: $black;
-	    			// background: $btnblue;
-	    			font-size: 28px;
-	    			float: right;
-	    		}
-	    	}
-
-	    	#showMeMore {
-
-	    		.btn {
-		    		border-radius: 25px;
-	    			color: $black;
-	    			background: $btnblue;
-	    			font-size: 28px;
-		    		text-align: center;
-		    		display: block;
-		    		margin: 0 auto;
-	    		}
-	    	}
-	    }
-	}
+	    		margin: 0 auto;
+    		}
+    	}
+    }
 }

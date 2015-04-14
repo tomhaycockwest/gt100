@@ -1,0 +1,23 @@
+.our-cars {
+	#intro {
+		background: url("#{$img-url}/our-cars-header.jpg") 50% 0 no-repeat; 
+
+		.navbar-container {
+			display: block;
+			margin:0 auto;
+			width: 76%;
+
+			.navbar-nav {
+				li {
+					padding: 0 10px;
+					.btn-blue {
+						color: $white;
+						font-size: 23px;	
+					}
+				}
+			}	
+		}
+		
+	}
+}
+
