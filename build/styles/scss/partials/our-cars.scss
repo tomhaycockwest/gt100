@@ -6,6 +6,7 @@
 			display: block;
 			margin:0 auto;
 			width: 76%;
+			margin-top: 60px;
 
 			.navbar-nav {
 				li {
@@ -17,7 +18,36 @@
 				}
 			}	
 		}
-		
+
+		.car-subtitle {
+			@extend .header;
+			margin-top: 100px;
+		}
+	}
+
+	.car-viewer-page-container {
+		background: red;
+
+		.car-viewer-container {
+			@extend .col-md-6;
+			background: blue;
+			padding: 0;
+
+			.feature-image {
+				@extend .col-md-12;
+				background: gray;
+				padding: 0;
+
+				img {
+					max-width: 588px;
+				}
+			}
+
+			.thumb {
+				@extend .col-md-3;
+				padding: 0;
+			}
+		}
 	}
 }
 
