@@ -3,6 +3,35 @@
 	#intro {
 		background: url("#{$img-url}/getting-married-header.jpg") 50% 0 no-repeat; 
 		height: 1136px;
+
+		.header {
+			h1 {
+				@include font-regular;
+			}
+
+			h2 {
+				@include font-light;
+			}
+
+			.btn-translucent {
+				@extend .h2;
+				color: $white;
+			}
+		}
+	}
+
+	.parallax {
+		background: url("#{$img-url}/getting-married-mid.jpg") 50% 0 fixed;
+		height: 534px;
+
+		.row {
+			margin-top: -160px;
+		
+			h4 {
+				text-align: center;
+				color: $black;
+			}
+		}
 	}
 
 }
