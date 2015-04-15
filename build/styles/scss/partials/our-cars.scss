@@ -83,6 +83,25 @@
 				}
 			}
 		}
+
+		.join-container {
+			@extend .col-md-6;
+			@extend.col-md-offset-3;
+			text-align: center;
+			color: $white;
+			margin-top: 50px;
+			margin-bottom: -40px;
+
+			.btn-container {
+				margin-top: -25px;
+
+				.btn-translucent {
+					@extend .h2;
+					padding: 20px;
+					border-radius: 50px;
+				}
+			}
+		}
 	}
 }
 
