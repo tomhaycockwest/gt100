@@ -51,27 +51,6 @@
 				padding: 0;
 			}
 
-			.car-description-container {
-				@extend .col-md-6;
-				color: $white;
-
-				.btn-blue {
-					font-size: 36px;
-					border-radius: 33px;
-				}
-
-				.car-description-title {
-
-					h1 {
-						margin-left: 2px;
-					}
-
-					h2 {
-						margin-top: -15px;
-					}
-				}
-			}
-
 			.car-description {
 				@extend .col-md-6;
 				color: $white;
@@ -103,10 +82,40 @@
 			}
 		}
 	}
+
+	.car-description-container {
+		// @extend .col-md-6;
+		color: $white;
+		height: 132px;
+		display: block;
+
+		.btn-blue {
+			font-size: 36px;
+			border-radius: 33px;
+			float: right;
+		}
+
+		.right {
+			margin-right: -15%;
+		}
+
+		.car-description-title {
+
+			h1 {
+				margin-left: 2px;
+			}
+
+			h2 {
+				margin-top: -15px;
+			}
+		}
+	}
 }
 
 .row-full-height {
   height: 100%;
+  margin-top: -20px;
+
 }
 .col-full-height {
   height: 100%;
@@ -116,8 +125,6 @@
   background: -moz-linear-gradient(#2a2a2a, #000000); /* For Firefox 3.6 to 15 */
   background: linear-gradient(#2a2a2a, #000000); /* Standard syntax */
 
-  // vertical-align: middle;
-
   p {
   	color: $white;
   	font-size: 25px;
@@ -125,7 +132,7 @@
 }
 .row-same-height {
   display: table;
-  width: 100%;
+  width: 100.4%;
   /* fix overflow */
   table-layout: fixed;
 }
@@ -151,5 +158,14 @@
     display: table-cell;
     float: none !important;
   }
+}
+
+.gradient-container {
+	background: -webkit-linear-gradient(#2a2a2a, #000000); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#2a2a2a, #000000); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#2a2a2a, #000000); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#2a2a2a, #000000); /* Standard syntax */
+	position: relative;
+	display: block;
 }
 
