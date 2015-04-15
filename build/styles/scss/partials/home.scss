@@ -1,3 +1,7 @@
+h1,
+.h1 {
+    @include font-bold;
+}
 #intro { 
 	background: url("#{$img-url}/home-car.jpg") 50% 0 no-repeat; 
 	height: 1065px;  
