@@ -97,6 +97,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/assets\/img\/getting-married-header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2.69958e+06,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/getting-married-header.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/getting-married-header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/assets\/img\/home-aston.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -207,6 +218,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
+	"\/app\/getting-married.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/getting-married.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/index.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -292,7 +312,7 @@
 		},
 	"\/build\/kits\/partials\/nav.kit": {
 		"fileType": 2048,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/kits\/partials\/nav.kit",
 		"outputAbbreviatedPath": "\/app\/nav.html",
