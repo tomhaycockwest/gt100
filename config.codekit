@@ -20,6 +20,61 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/assets\/img\/aston-feature.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 124292,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/aston-feature.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/aston-feature.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/aston-thumb-diagonal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14174,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/aston-thumb-diagonal.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/aston-thumb-diagonal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/aston-thumb-front.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11022,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/aston-thumb-front.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/aston-thumb-front.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/aston-thumb-rear.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15067,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/aston-thumb-rear.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/aston-thumb-rear.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/aston-thumb-side.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 10693,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/aston-thumb-side.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/aston-thumb-side.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/assets\/img\/footer-bg.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -189,6 +244,15 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
+		},
+	"\/build\/kits\/getting-married.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/getting-married.kit",
+		"outputAbbreviatedPath": "\/app\/getting-married.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/build\/kits\/index.kit": {
 		"fileType": 2048,
@@ -3393,6 +3457,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/styles\/scss\/partials\/footer.scss",
 		"outputAbbreviatedPath": "\/app\/assets\/css\/footer.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/build\/styles\/scss\/partials\/getting-married.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/styles\/scss\/partials\/getting-married.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/getting-married.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
