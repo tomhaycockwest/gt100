@@ -1,0 +1,26 @@
+.club {
+	@extend .getting-married;
+
+	#intro {
+		background: url("#{$img-url}/club.jpg") 50% 0 no-repeat; 
+		height: 1332px;
+
+		.first {
+			margin-top: 120px;
+		}
+
+		.text-left {
+			text-align: left;
+		}
+
+		.text-right {
+			text-align: right;
+		}
+
+		.btn-blue {
+			@extend .h2;
+			color: $white;
+			margin-top: 50px;
+		}
+	}
+}

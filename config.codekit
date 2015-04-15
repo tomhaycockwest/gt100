@@ -11,6 +11,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/assets\/css\/club.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/css\/club.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/assets\/css\/theme.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -71,6 +80,28 @@
 		"initialSize": 10693,
 		"inputAbbreviatedPath": "\/app\/assets\/img\/aston-thumb-side.jpg",
 		"outputAbbreviatedPath": "\/app\/assets\/img\/aston-thumb-side.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/driving-days-header.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 922603,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/driving-days-header.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/driving-days-header.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/driving-days-mid.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 697928,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/driving-days-mid.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/driving-days-mid.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -240,6 +271,24 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
+	"\/app\/club.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/club.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/driving-days.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/driving-days.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/getting-married.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -286,6 +335,15 @@
 		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
+		},
+	"\/build\/kits\/club.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/club.kit",
+		"outputAbbreviatedPath": "\/app\/club.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/build\/kits\/driving-days.kit": {
 		"fileType": 2048,
@@ -3492,6 +3550,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/styles\/scss\/libraries.scss",
 		"outputAbbreviatedPath": "\/app\/_\/css\/libraries.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/build\/styles\/scss\/partials\/club.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/styles\/scss\/partials\/club.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/club.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
