@@ -1,0 +1,46 @@
+.driving-days {
+	@extend .getting-married;
+
+	#intro {
+		background: url("#{$img-url}/driving-days-header.jpg") 50% 0 no-repeat; 
+
+		.header {
+			.btn-blue {
+				@extend .h2;
+				color: $white;
+			}
+		}
+	}
+
+	.parallax {
+		background: url("#{$img-url}/driving-days-mid.jpg") 50% 0 fixed; 
+
+		.row {
+			margin-top: 20px;
+
+			h2 {
+				text-align: center;
+				color: $white;
+			}
+		}
+	}
+
+	.driving-day-info {
+		@extend .parallax;
+		background: black;
+		height: 320px;
+		padding-top: 20px;
+		padding-bottom: 0;
+
+		.row {
+
+			h4 {
+				color: $white;
+			}
+
+			.btn-container {
+				padding-top: 0 !important;
+			}
+		}
+	}
+}
