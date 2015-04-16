@@ -18,7 +18,8 @@
 	}
 
 	.parallax {
-		background: url("#{$img-url}/driving-days-mid.jpg") 50% 0 fixed; 
+		background: url("#{$img-url}/driving-days-mid.jpg") 50% 0 fixed;
+		height: 627px;
 
 		.row {
 			margin-top: 20px;
@@ -26,6 +27,10 @@
 			h2 {
 				text-align: center;
 				color: $white;
+			}
+
+			.btn-container {
+				padding-top: 0 !important;
 			}
 		}
 	}
@@ -41,6 +46,8 @@
 
 			h4 {
 				color: $white;
+				max-width: 60%;
+				margin: 0 auto;
 			}
 
 			.btn-container {
