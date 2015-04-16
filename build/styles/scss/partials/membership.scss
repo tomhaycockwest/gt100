@@ -9,22 +9,56 @@
 			@extend .col-md-8;
 			@extend .center-block;
 
-			.offset {
-				
+			.lower {
+				margin-top: 18px;
+			}
+
+			.first-block {
+				margin-left: 60px !important;
 			}
 
 			.membership-fee-block {
 				@extend .col-md-3;
-				background: gray;
+				background: rgba(244, 244, 244, 0.27);
 				color: $white;
 				margin-left: 30px;
 				text-align: center;
-
+				border-radius: 12px;
+				padding-bottom: 15px;
+				padding-top: 5px;
 
 				.heading {
+					font-size: 20px;
 				}
 
 				.details {
+
+				}
+
+				.price {
+					font-size: 60px;
+
+					span {
+						font-size: 20px;
+					}
+				}
+
+				hr {
+					margin-top: 5px;
+					margin-bottom: 5px;
+				}
+
+				.btn-join-grey {
+					background-color: $btn-grey;
+					padding: 2px 20px;
+					text-transform: uppercase;
+					color: $white;
+					border-radius: 5px;
+				}
+
+				.btn-join-blue {
+					@extend .btn-join-grey;
+					background-color: $btn-join-blue;
 				}
 			}
 
