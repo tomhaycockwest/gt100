@@ -3,7 +3,7 @@
 
 	#intro {
 		background: url("#{$img-url}/membership.jpg") 50% 0 no-repeat; 
-		height: 1038px;
+		height: 877px;
 
 		.membership-block-container {
 			@extend .col-md-8;
@@ -64,7 +64,20 @@
 
 		}
 
-		
+		.joining-fee {
+			color: $white;
+			text-align: center;
+		}
+
+		.btn-blue {
+			@extend .h2;
+			color: $white;
+		}
+
+		.points {
+			@extend .header;
+			margin-top: 100px;
+		}
 
 	
 	}
