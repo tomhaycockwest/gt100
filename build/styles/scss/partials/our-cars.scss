@@ -64,8 +64,8 @@
 		}
 
 		.join-container {
-			@extend .col-md-6;
-			@extend.col-md-offset-3;
+			@extend .col-md-7;
+			@extend .center-block;
 			text-align: center;
 			color: $white;
 			margin-top: 50px;
@@ -84,7 +84,6 @@
 	}
 
 	.car-description-container {
-		// @extend .col-md-6;
 		color: $white;
 		height: 132px;
 		display: block;
