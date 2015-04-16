@@ -84,6 +84,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/assets\/img\/club.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 344945,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/club.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/club.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/assets\/img\/driving-days-header.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
