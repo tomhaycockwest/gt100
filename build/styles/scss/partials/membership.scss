@@ -1,0 +1,37 @@
+.membership {
+	@extend .getting-married;
+
+	#intro {
+		background: url("#{$img-url}/membership.jpg") 50% 0 no-repeat; 
+		height: 1038px;
+
+		.membership-block-container {
+			@extend .col-md-8;
+			@extend .center-block;
+
+			.offset {
+				
+			}
+
+			.membership-fee-block {
+				@extend .col-md-3;
+				background: gray;
+				color: $white;
+				margin-left: 30px;
+				text-align: center;
+
+
+				.heading {
+				}
+
+				.details {
+				}
+			}
+
+		}
+
+		
+
+	
+	}
+}
