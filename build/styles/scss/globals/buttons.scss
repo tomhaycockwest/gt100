@@ -1,9 +1,10 @@
 .btn-translucent {
 	@extend .btn;
 	@extend .btn-default;
-	border-radius: 25px;
+	border-radius: 50px;
+	padding: 24px 30px;
 	border: none;
-	background: rgba(255,255,255,0.12);
+	background: rgba(255,255,255,0.3);
 	color: $white;
 
 	&:hover {
@@ -14,9 +15,10 @@
 
 .btn-blue {
 	@extend .btn;
-	border-radius: 25px;
+	border-radius: 50px;
 	color: $black;
 	background: $btnblue;
+	padding: 20px 45px;
 
 	&:hover {
 		color: $black;
