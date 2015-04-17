@@ -4,15 +4,24 @@
 	background:url("#{$img-url}/footer-bg.jpg") 50% 0 no-repeat;
 	color: $white;
 
+	.bold {
+		h1,
+		h2,
+		h3 {
+			@include font-bold;
+		}
+	}
+
 	.row {
 
 		#footerTextContainer {
 			text-align: center;
 			margin-top: 100px;
 
+			h1,
 			h2,
 			h3 {
-				font-weight: normal;
+				@include font-light;
 			}
 
 			.btn-container {

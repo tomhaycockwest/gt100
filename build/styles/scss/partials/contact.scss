@@ -1,0 +1,41 @@
+.contact {
+	@extend .our-cars;
+
+	#intro {
+		background: url("#{$img-url}/contact.jpg") 50% 0 no-repeat; 
+		height: auto;
+
+		h1,
+		h2 {
+			@include font-light;
+		}
+
+		.form-container {
+			margin: 0 auto;
+			width: 50%;
+			margin-top: 50px;
+
+			input {
+				border-radius: 50px;
+			}
+
+			textarea {
+				border-radius: 15px;
+			}
+
+			.btn-container {
+				width: 192px;
+
+				.btn-blue {
+					font-size: 30px;
+					color: $white;
+				}
+			}
+
+			h2 {
+				text-align: center;
+				color: $white;
+			}
+		}
+	}
+}
