@@ -150,17 +150,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/assets\/img\/getting-married-header.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4.13477e+06,
-		"inputAbbreviatedPath": "\/app\/assets\/img\/getting-married-header.png",
-		"outputAbbreviatedPath": "\/app\/assets\/img\/getting-married-header.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/app\/assets\/img\/getting-married-mid.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
