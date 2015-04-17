@@ -1,0 +1,16 @@
+.terms {
+	@extend .our-cars;
+
+	#intro {
+		background: url("#{$img-url}/terms.jpg") 50% 0 no-repeat; 
+		height: auto;
+
+		h1 {
+			@include font-light;
+		}
+
+		p {
+			color: $white;
+		}
+	}
+}
