@@ -6,7 +6,7 @@
 		height: 1332px;
 
 		.first {
-			margin-top: 120px;
+			margin-top: 100px;
 		}
 
 		.text-left {
@@ -18,10 +18,13 @@
 			text-align: right;
 		}
 
-		.btn-blue {
-			@extend .h2;
-			color: $white;
-			margin-top: 100px;
+		.btn-container {
+			width: 145px;
+			.btn-blue {
+				@extend .h2;
+				color: $white;
+			}			
 		}
+
 	}
 }
