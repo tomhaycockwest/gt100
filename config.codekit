@@ -465,6 +465,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 2
 		},
+	"\/build\/kits\/book-your-car.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/book-your-car.kit",
+		"outputAbbreviatedPath": "\/app\/book-your-car.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/build\/kits\/club.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -3724,6 +3733,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/styles\/scss\/libraries.scss",
 		"outputAbbreviatedPath": "\/app\/_\/css\/libraries.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/build\/styles\/scss\/partials\/book-your-car.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/styles\/scss\/partials\/book-your-car.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/book-your-car.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
