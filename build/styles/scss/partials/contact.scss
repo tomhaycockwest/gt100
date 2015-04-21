@@ -36,6 +36,38 @@
 				text-align: center;
 				color: $white;
 			}
+
+			.table-container {
+				display: block;
+				width: 474px;
+				margin: 0 auto;
+				margin-top: 40px;
+
+				.no-border-left {
+					border-left: none;
+				}
+
+				.no-border-right {
+					border-right: none;
+				}
+
+				td {
+					text-align: center;
+					color: $white;
+					border-left: 1px solid #ddd;
+					border-right: 1px solid #ddd;
+				}
+
+				tr:last-child {
+					border-bottom: 1px solid #ddd;
+				}
+
+				h5,
+				h4 {
+					text-align: center;
+					color: $white;
+				}
+			}
 		}
 	}
 }
