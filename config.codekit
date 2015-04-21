@@ -29,6 +29,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/app\/assets\/css\/points-calculator.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/css\/points-calculator.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/app\/assets\/css\/theme.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -100,6 +109,17 @@
 		"initialSize": 344945,
 		"inputAbbreviatedPath": "\/app\/assets\/img\/club.jpg",
 		"outputAbbreviatedPath": "\/app\/assets\/img\/club.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/coming-soon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25522,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/coming-soon.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/coming-soon.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -291,6 +311,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/assets\/img\/points-calculator.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58498,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/points-calculator.jpg",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/points-calculator.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/assets\/img\/terms.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -401,6 +432,15 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/app\/our-cars.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/app\/points-calculator.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/points-calculator.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -521,6 +561,15 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/kits\/partials\/nav.kit",
 		"outputAbbreviatedPath": "\/app\/nav.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/build\/kits\/points-calculator.kit": {
+		"fileType": 2048,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/kits\/points-calculator.kit",
+		"outputAbbreviatedPath": "\/app\/points-calculator.html",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
@@ -3819,6 +3868,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/styles\/scss\/partials\/our-cars.scss",
 		"outputAbbreviatedPath": "\/app\/assets\/css\/our-cars.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/build\/styles\/scss\/partials\/points-calculator.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/styles\/scss\/partials\/points-calculator.scss",
+		"outputAbbreviatedPath": "\/app\/assets\/css\/points-calculator.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
