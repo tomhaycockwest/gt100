@@ -168,7 +168,7 @@ function CalcTotals(inno) {
 
     var txtTotal = 0;
 
-    $(".calcpoints").each(function (index, value) {
+    $(".calcpoints").each(function (value) {
         var val = value.value;
         val = val.replace(",", ".");
 
@@ -206,8 +206,6 @@ function CalcTotals(inno) {
 
 
     document.getElementById('lblPointsTotal').innerHTML = txtTotal.toFixed(0);
-
-
 
 
 }
