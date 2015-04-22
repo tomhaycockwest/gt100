@@ -70,10 +70,10 @@ function detectmob() {
 	fullHeight();
 	}
 	var ua = navigator.userAgent.toLowerCase();
-	alert(ua);
 	var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-	if(isAndroid) {
-		alert('android');
+	var isWindowsPhone = ua.indexOf("windows phone") > -1;
+	var isWindowsTablet = ua.indexOf("tablet pc") > -1;
+	if(isAndroid || isWindowsPhone || isWindowsTablet) {
 		$("#viewport, #footer, .footer-bar").width('125%');
 		$(".logo").css({top:'-290px', left: '-85px'});
 		removeParallax();
