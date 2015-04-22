@@ -9838,6 +9838,10 @@ h1,
   font-family: OpenSans-Bold, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.remove-parallax {
+  background-attachment: initial !important;
+}
+
 #intro {
   background: url("../img/home-car.jpg") 50% 0 no-repeat;
   height: 1065px;
@@ -9857,7 +9861,10 @@ h1,
 }
 
 .parallax, .driving-days .driving-day-info {
-  background: url("../img/home-mid.jpg") 50% 0 fixed no-repeat;
+  background-image: url("../img/home-mid.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 0;
   height: 450px;
   margin: 0 auto;
   width: 100%;
@@ -10107,7 +10114,10 @@ h1,
   bottom: 105px;
 }
 .getting-married .parallax, .driving-days .parallax, .club .parallax, .membership .parallax, .driving-days .driving-day-info {
-  background: url("../img/getting-married-mid.jpg") 50% 0 fixed;
+  background-image: url("../img/getting-married-mid.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 0;
   height: 630px;
   padding: 200px 0;
 }
@@ -10138,7 +10148,10 @@ h1,
   bottom: 105px;
 }
 .driving-days .parallax, .driving-days .driving-day-info {
-  background: url("../img/driving-days-mid.jpg") 50% 0 fixed;
+  background-image: url("../img/driving-days-mid.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 50% 0;
   height: 627px;
   padding: 100px;
 }
@@ -10250,6 +10263,10 @@ h1,
 .contact #intro h1,
 .contact #intro h2 {
   font-family: OpenSans-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.contact #intro h1 a,
+.contact #intro h2 a {
+  color: #fff;
 }
 .contact #intro .form-container {
   margin: 0 auto;
@@ -10376,4 +10393,7 @@ h1,
 
 .book-your-car #intro {
   background: url("../img/book-your-car.jpg") 50% 0 no-repeat;
+}
+.book-your-car #intro h2 a {
+  color: #fff;
 }

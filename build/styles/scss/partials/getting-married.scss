@@ -26,7 +26,10 @@
 	}
 
 	.parallax {
-		background: url("#{$img-url}/getting-married-mid.jpg") 50% 0 fixed;
+		background-image: url("#{$img-url}/getting-married-mid.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: 50% 0; 
 		height: 630px;
 		padding: 200px 0;
 

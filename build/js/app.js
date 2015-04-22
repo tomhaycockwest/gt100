@@ -39,6 +39,10 @@ $(window).on('scroll', function() {
     }
 });
 
+function removeParallax() {
+	$('.parallax').addClass('remove-parallax');
+}
+
 function fullHeight() {
 	var windowHeight = $( window ).height();
 	$('.intro-home').css({height:windowHeight+'px'});
@@ -57,6 +61,7 @@ function detectmob() {
 		$("#viewport, #footer, .footer-bar").width('125%');
 		$(".logo").css({top:'-290px', left: '-85px'});
 	console.log('mobile');
+		removeParallax();
 	}
 	else {
 	console.log('desktop');

@@ -8,6 +8,10 @@
 		h1,
 		h2 {
 			@include font-light;
+
+			a {
+				color: $white;
+			}
 		}
 
 		.form-container {

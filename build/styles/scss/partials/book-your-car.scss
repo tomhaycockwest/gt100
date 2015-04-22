@@ -1,6 +1,12 @@
 .book-your-car {
 
 	#intro {
-		background: url("#{$img-url}/book-your-car.jpg") 50% 0 no-repeat; 
+		background: url("#{$img-url}/book-your-car.jpg") 50% 0 no-repeat;
+
+		h2 {
+			a {
+				color: $white;
+			}
+		} 
 	}
 }

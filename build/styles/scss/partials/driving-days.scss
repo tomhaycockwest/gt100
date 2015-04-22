@@ -18,7 +18,10 @@
 	}
 
 	.parallax {
-		background: url("#{$img-url}/driving-days-mid.jpg") 50% 0 fixed;
+		background-image: url("#{$img-url}/driving-days-mid.jpg");
+	    background-repeat: no-repeat;
+	    background-attachment: fixed;
+	    background-position: 50% 0; 
 		height: 627px;
 		padding: 100px;
 
