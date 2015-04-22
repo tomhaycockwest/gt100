@@ -109,6 +109,10 @@ function isNumber(n) {
     return !isNaN(parseFloat(n)) && isFinite(n);
 }
 
+function MathRound(number) {
+    return Math.round(number * 100) / 100;
+}
+
 function CalcTotals(inno) {
     var ctrlval = 0.00;
 
