@@ -51,7 +51,6 @@ function removeParallax() {
 function fullHeight() {
 	var windowHeight = $( window ).height();
 	$('.intro-home').css({height:windowHeight+'px'});
-	console.log(windowHeight);
 }
 
 function detectmob() { 
@@ -65,11 +64,9 @@ function detectmob() {
 	){
 		$("#viewport, #footer, .footer-bar").width('125%');
 		$(".logo").css({top:'-290px', left: '-85px'});
-	console.log('mobile');
 		removeParallax();
 	}
 	else {
-	console.log('desktop');
 	fullHeight();
 	}
 }
@@ -105,5 +102,116 @@ var App = {
 	}
 
 };
+
+
+
+function isNumber(n) {
+    return !isNaN(parseFloat(n)) && isFinite(n);
+}
+
+function CalcTotals(inno) {
+    var ctrlval = 0.00;
+
+
+    if (isNumber(document.getElementById('repCars_txtWeekdays_' + inno).value)) {
+
+        ctrlval = parseFloat(document.getElementById("repCars_txtWeekdays_" + inno).value);
+    }
+
+    ctrlval = ctrlval.toFixed(0);
+
+    document.getElementById('repCars_txtWeekdays_' + inno).value = ctrlval;
+
+
+    ctrlval = 0.00;
+
+
+    if (isNumber(document.getElementById('repCars_txtWeekend1_' + inno).value)) {
+
+        ctrlval = parseFloat(document.getElementById("repCars_txtWeekend1_" + inno).value);
+    }
+
+    ctrlval = ctrlval.toFixed(0);
+
+    document.getElementById('repCars_txtWeekend1_' + inno).value = ctrlval;
+
+
+    ctrlval = 0.00;
+
+
+    if (isNumber(document.getElementById('repCars_txtWeekend2_' + inno).value)) {
+
+        ctrlval = parseFloat(document.getElementById("repCars_txtWeekend2_" + inno).value);
+    }
+
+    ctrlval = ctrlval.toFixed(0);
+
+    document.getElementById('repCars_txtWeekend2_' + inno).value = ctrlval;
+
+
+
+    var ctrlvalqty = document.getElementById('repCars_txtWeekdays_' + inno).value;
+    var ctrlPoints = document.getElementById('repCars_lblPointsWeekdays_' + inno).value;
+
+    document.getElementById('repCars_lblTotalWeekdays_' + inno).value = ctrlvalqty * ctrlPoints;
+
+    ctrlvalqty = document.getElementById('repCars_txtWeekend1_' + inno).value;
+    ctrlPoints = document.getElementById('repCars_lblPointsWeekends1_' + inno).value;
+
+    document.getElementById('repCars_lblTotalWeekends1_' + inno).value = ctrlvalqty * ctrlPoints;
+
+    ctrlvalqty = document.getElementById('repCars_txtWeekend2_' + inno).value;
+    ctrlPoints = document.getElementById('repCars_lblPointsWeekends2_' + inno).value;
+
+    document.getElementById('repCars_lblTotalWeekends2_' + inno).value = ctrlvalqty * ctrlPoints;
+
+
+    var txtTotal = 0;
+
+    $(".calcpoints").each(function (index, value) {
+        var val = value.value;
+        val = val.replace(",", ".");
+
+        if (val == '') { val = 0; }
+        if (isNumber(val)) {
+
+            txtTotal = MathRound(parseFloat(txtTotal) + parseFloat(val));
+        }
+    });
+
+
+    document.getElementById('cmdCars').style.display = 'normal';
+
+    if (txtTotal < 1) {
+        document.getElementById('cmdCars').style.display = 'none';
+    }
+
+    if (txtTotal <= 1000 && txtTotal > 0) {
+        document.getElementById('cmdCars').innerHTML = 'Tier 1';
+        document.getElementById('cmdCars').innerText = 'Tier 1';
+        document.getElementById('cmdCars').innerContent = 'Tier 1';
+    }
+
+    if (txtTotal <= 3500 && txtTotal > 1001) {
+        document.getElementById('cmdCars').innerHTML = 'Tier 2';
+        document.getElementById('cmdCars').innerText = 'Tier 2';
+        document.getElementById('cmdCars').innerContent = 'Tier 2';
+    }
+
+    if (txtTotal > 3500 ) {
+        document.getElementById('cmdCars').innerHTML = 'Tier 3';
+        document.getElementById('cmdCars').innerText = 'Tier 3';
+        document.getElementById('cmdCars').innerContent = 'Tier 3';
+    }
+
+
+    document.getElementById('lblPointsTotal').innerHTML = txtTotal.toFixed(0);
+
+
+
+
+}
+
+
 
 
