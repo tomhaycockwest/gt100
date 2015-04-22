@@ -39,6 +39,22 @@ $(window).on('scroll', function() {
     }
 });
 
+function detectmob() { 
+	if( navigator.userAgent.match(/Android/i)
+	|| navigator.userAgent.match(/webOS/i)
+	|| navigator.userAgent.match(/iPhone/i)
+	|| navigator.userAgent.match(/iPad/i)
+	|| navigator.userAgent.match(/iPod/i)
+	|| navigator.userAgent.match(/BlackBerry/i)
+	|| navigator.userAgent.match(/Windows Phone/i)
+	){
+		$("#viewport, #footer, .footer-bar").width('125%');
+	console.log('mobile');
+	}
+	else {
+	console.log('desktop');
+	}
+}
 
 
 $(function() { 
@@ -67,6 +83,7 @@ var App = {
 		// Application has been initalized
 		console.log(this.settings.name + "(v" + this.settings.version + ") Started");	
 		// setInterval(changeBackground, 3000);
+		detectmob();
 
 	}
 

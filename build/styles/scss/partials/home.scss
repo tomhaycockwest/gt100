@@ -1,9 +1,29 @@
+.container {
+    width: 1170px !important;
+}
+
 .container-fixed {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
   width: 1170px;
+}
+
+.navbar-collapse.collapse {
+display: block!important;
+}
+
+.navbar-nav>li, .navbar-nav {
+float: left !important;
+}
+
+.navbar-nav.navbar-right:last-child {
+margin-right: -15px !important;
+}
+
+.navbar-right {
+float: right!important;
 }
 
 h1,

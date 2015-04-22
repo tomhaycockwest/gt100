@@ -42,7 +42,7 @@
 	background-color: $footerbg;
 
   	.left-col {
-  		@extend .col-md-5;
+  		@extend .col-xs-5;
 
 	  	.copy {
 	  		@extend .h4;
@@ -62,7 +62,7 @@
  	}
 
  	.center-col {
- 		@extend .col-md-2;
+ 		@extend .col-xs-2;
 
  		.logo {
  			background:url("#{$img-url}/footer-logo.png") 50% 0 no-repeat;
@@ -75,8 +75,8 @@
  	}
 
  	.right-col {
- 		@extend .col-md-4;
- 		@extend .col-md-offset-1;
+ 		@extend .col-xs-4;
+ 		@extend .col-xs-offset-1;
  		@extend .h4;
 
  		ul {

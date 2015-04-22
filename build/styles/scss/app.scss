@@ -18,6 +18,9 @@ $img-url: "../img";
 @import "globals/fonts";
 @import "globals/buttons";
 
+// Mobile Specific Styles & Settings
+@import "globals/mobile";
+
 // Globals
 // ------------------------------------------------------------------------
 @import "globals/defaults";
@@ -41,5 +44,4 @@ $img-url: "../img";
 @import "partials/points-calculator";
 @import "partials/book-your-car";
 
-// Mobile Specific Styles & Settings
-@import "globals/mobile";
+
