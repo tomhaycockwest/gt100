@@ -69,7 +69,17 @@ function detectmob() {
 	else {
 	fullHeight();
 	}
+	var ua = navigator.userAgent.toLowerCase();
+	var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
+	if(isAndroid) {
+		console.log('android');
+		$("#viewport, #footer, .footer-bar").width('125%');
+		$(".logo").css({top:'-290px', left: '-85px'});
+		removeParallax();
+	}
 }
+
+
 
 $(function() { 
 	App.init();
