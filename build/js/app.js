@@ -40,7 +40,12 @@ $(window).on('scroll', function() {
 });
 
 function removeParallax() {
-	$('.parallax').addClass('remove-parallax');
+	if( navigator.userAgent.match(/iPhone/i))
+	|| navigator.userAgent.match(/iPad/i)
+	|| navigator.userAgent.match(/iPod/i)
+	){
+		$('.parallax').addClass('remove-parallax');
+	}
 }
 
 function fullHeight() {

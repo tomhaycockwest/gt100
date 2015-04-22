@@ -9919,7 +9919,7 @@ h1,
 
 #footer {
   width: 100%;
-  min-height: 771px;
+  height: 771px;
   background: url("../img/footer-bg.jpg") 50% 0 no-repeat;
   color: #fff;
 }
@@ -10135,6 +10135,10 @@ h1,
   font-family: OpenSans-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   margin-top: 50px;
+}
+
+.marriage-footer {
+  height: 450px !important;
 }
 
 .driving-days #intro {
