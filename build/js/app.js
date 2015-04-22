@@ -49,6 +49,7 @@ function detectmob() {
 	|| navigator.userAgent.match(/Windows Phone/i)
 	){
 		$("#viewport, #footer, .footer-bar").width('125%');
+		$(".logo").css({top:'-290px', left: '-85px'});
 	console.log('mobile');
 	}
 	else {
