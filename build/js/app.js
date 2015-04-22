@@ -39,6 +39,12 @@ $(window).on('scroll', function() {
     }
 });
 
+function fullHeight() {
+	var windowHeight = $( window ).height();
+	$('.intro-home').css({height:windowHeight+'px'});
+	console.log(windowHeight);
+}
+
 function detectmob() { 
 	if( navigator.userAgent.match(/Android/i)
 	|| navigator.userAgent.match(/webOS/i)
@@ -54,9 +60,9 @@ function detectmob() {
 	}
 	else {
 	console.log('desktop');
+	fullHeight();
 	}
 }
-
 
 $(function() { 
 	App.init();
