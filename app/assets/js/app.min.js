@@ -70,9 +70,10 @@ function detectmob() {
 	fullHeight();
 	}
 	var ua = navigator.userAgent.toLowerCase();
+	alert(ua);
 	var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
 	if(isAndroid) {
-		console.log('android');
+		alert('android');
 		$("#viewport, #footer, .footer-bar").width('125%');
 		$(".logo").css({top:'-290px', left: '-85px'});
 		removeParallax();
