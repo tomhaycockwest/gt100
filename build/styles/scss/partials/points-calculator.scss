@@ -1,6 +1,7 @@
 .points-calculator {
 	#intro {
 		background: url("#{$img-url}/points-calculator.jpg") 50% 0 no-repeat; 
+		height: auto;
 
 		.points-table-container {
 			@extend .col-xs-8;
