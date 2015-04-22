@@ -455,7 +455,7 @@
 		"outputAbbreviatedPath": "\/app\/assets\/js\/app.min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 1,
-		"outputStyle": 1,
+		"outputStyle": 0,
 		"syntaxCheckerStyle": 2
 		},
 	"\/build\/kits\/book-your-car.kit": {

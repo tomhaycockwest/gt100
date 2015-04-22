@@ -101,5 +101,14 @@
 				}
 			}
 		}
+
+		.btn-container {
+			width: 212px;
+
+			.btn-blue {
+				@extend .h2;
+				color: $white;
+			}			
+		}
 	}
 }

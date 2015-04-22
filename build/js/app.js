@@ -40,7 +40,7 @@ $(window).on('scroll', function() {
 });
 
 function removeParallax() {
-	if( navigator.userAgent.match(/iPhone/i))
+	if( navigator.userAgent.match(/iPhone/i)
 	|| navigator.userAgent.match(/iPad/i)
 	|| navigator.userAgent.match(/iPod/i)
 	){
