@@ -10454,8 +10454,15 @@ h1,
   width: 50%;
   margin-top: 50px;
 }
+.show-interest #intro .form-container .dropdown-container {
+  display: block;
+  padding: 10px;
+}
 .show-interest #intro .form-container input {
   border-radius: 50px;
+}
+.show-interest #intro .form-container input[type="checkbox"] {
+  margin-top: 10px;
 }
 .show-interest #intro .form-container textarea {
   border-radius: 15px;
@@ -10463,10 +10470,13 @@ h1,
 .show-interest #intro .form-container label {
   color: #fff;
 }
+.show-interest #intro .form-container select {
+  margin-left: 10px;
+}
 .show-interest #intro .form-container .btn-container {
   width: 192px;
+  float: right;
 }
 .show-interest #intro .form-container .btn-container .btn-blue {
-  font-size: 30px;
   color: #fff;
 }

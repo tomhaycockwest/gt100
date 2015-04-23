@@ -121,20 +121,33 @@
                                 <div class="col-sm-10">
                                     <input type="text" class="form-control" id="occupation">
                                 </div>
-                                <label>Self employed &nbsp;<input type="checkbox"></label>
                             </div>
 
-                            <div class="btn-group">
-                            
-                                <select class="form-control">
-                                    <label class="control-label">Membership level</label>
-                                    <option value="one">One</option>
-                                    <option value="two">Two</option>
-                                    <option value="three">Three</option>
-                                    <option value="four">Four</option>
-                                    <option value="five">Five</option>
-                                </select>
-                          </div>
+                            <div class="dropdown-container">
+                                <label>Self employed  </label>
+                                <div class="btn-group">
+                                    <select class="form-control">
+                                        <option value="one">Yes</option>
+                                        <option value="two">No</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="dropdown-container">
+                            <label>Membership level  </label>
+                                <div class="btn-group">
+                                    <select class="form-control">
+                                        <option value="one">Tier 1</option>
+                                        <option value="two">Tier 2</option>
+                                        <option value="three">Tier 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group"> 
+                                <div class="col-sm-offset-2 col-sm-10 btn-container">
+                                  <button type="submit" class="btn btn-blue">Submit</button>
+                                </div>
+                              </div>
                         </form>
                     </div>
                 </div>
@@ -142,5 +155,4 @@
 
             <script src="assets/js/jquery.min-min.js"></script>
             <script src="assets/js/app.min.js"></script>    
-            <script src="assets/js/bootstrap.min.js"></script>    
 

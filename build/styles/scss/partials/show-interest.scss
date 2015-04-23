@@ -19,8 +19,17 @@
 			width: 50%;
 			margin-top: 50px;
 
+			.dropdown-container {
+				display: block;
+				padding: 10px;
+			}
+
 			input {
 				border-radius: 50px;
+			}
+
+			input[type="checkbox"] {
+				margin-top: 10px;
 			}
 
 			textarea {
@@ -31,11 +40,15 @@
 				color: $white;
 			}
 
+			select {
+				margin-left: 10px;
+			}
+
 			.btn-container {
 				width: 192px;
+				float: right;
 
 				.btn-blue {
-					font-size: 30px;
 					color: $white;
 				}
 			}
