@@ -317,17 +317,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/app\/assets\/js\/app.min.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/assets\/js\/app.min.js",
-		"outputAbbreviatedPath": "\/app\/assets\/js\/app.min-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
-		},
 	"\/app\/assets\/js\/jquery.min-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -455,17 +444,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/build\/js\/app.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/build\/js\/app.js",
-		"outputAbbreviatedPath": "\/app\/assets\/js\/app-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 2
 		},
 	"\/build\/kits\/book-your-car.kit": {
 		"fileType": 2048,
