@@ -1,11 +1,45 @@
 .show-interest {
-	@extend .getting-married;
+	@extend .our-cars;
 
-	.header {
-		padding-left: 25px;
-		padding-right: 25px;
+	#intro {
+		background: url("#{$img-url}/contact.jpg") 50% 0 no-repeat; 
+		height: auto;
+
+		h1,
 		h4 {
-		}	
+			@include font-light;
+
+			a {
+				color: $white;
+			}
+		}
+
+		.form-container {
+			margin: 0 auto;
+			width: 50%;
+			margin-top: 50px;
+
+			input {
+				border-radius: 50px;
+			}
+
+			textarea {
+				border-radius: 15px;
+			}
+
+			label {
+				color: $white;
+			}
+
+			.btn-container {
+				width: 192px;
+
+				.btn-blue {
+					font-size: 30px;
+					color: $white;
+				}
+			}
+		}
 	}
-	
+
 }
