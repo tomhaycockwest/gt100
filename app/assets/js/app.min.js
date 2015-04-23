@@ -73,7 +73,7 @@ function detectmob() {
 	var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
 	var isWindowsPhone = ua.indexOf("iemobile") > -1;
 	var isWindowsTablet = ua.indexOf("tablet") > -1;
-	if(isAndroid || isWindowsPhone || isWindowsTablet) {
+	if(isWindowsPhone || isAndroid || isWindowsTablet) {
 		$("#viewport, #footer, .footer-bar").width('125%');
 		$(".logo").css({top:'-290px', left: '-85px'});
 		removeParallax();
