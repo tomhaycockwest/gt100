@@ -55,12 +55,10 @@ function fullHeight() {
 
 function detectmob() { 
 	if( navigator.userAgent.match(/Android/i)
-	|| navigator.userAgent.match(/webOS/i)
 	|| navigator.userAgent.match(/iPhone/i)
 	|| navigator.userAgent.match(/iPad/i)
 	|| navigator.userAgent.match(/iPod/i)
 	|| navigator.userAgent.match(/BlackBerry/i)
-	|| navigator.userAgent.match(/Windows Phone/i)
 	){
 		$("#viewport, #footer, .footer-bar").width('125%');
 		$(".logo").css({top:'-290px', left: '-85px'});
@@ -72,7 +70,7 @@ function detectmob() {
 	var ua = navigator.userAgent.toLowerCase();
 	var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
 	var isWindowsPhone = ua.indexOf("mobile") > -1;
-	var isWindowsTablet = ua.indexOf("tablet") > -1;
+	var isWindowsTablet = ua.indexOf("dssfs") > -1;
 	if(isWindowsPhone || isAndroid || isWindowsTablet) {
 		$("#viewport, #footer, .footer-bar").width('125%');
 		$(".logo").css({top:'-290px', left: '-85px'});

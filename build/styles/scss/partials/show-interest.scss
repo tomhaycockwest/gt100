@@ -16,7 +16,7 @@
 
 		.form-container {
 			margin: 0 auto;
-			width: 42%;
+			width: 43%;
 			margin-top: 50px;
 
 			.dropdown-container {
@@ -24,14 +24,13 @@
 				padding: 10px;
 			}
 
-			.col-sm-10 {
+			.col-xs-8,
+			.col-xs-3 {
 				padding-bottom: 0;
 			}
 
 			input {
 				border-radius: 50px;
-				width: 300px;
-				margin-left: 31px;
 			}
 
 			input[type="checkbox"] {
@@ -44,14 +43,6 @@
 
 			label {
 				color: $white;
-			}
-
-			select {
-				margin-left: 10px;
-			}
-
-			.align {
-				margin-left: 25px;
 			}
 
 			.btn-container {
