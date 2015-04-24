@@ -4,7 +4,7 @@
 		height: auto;
 
 		.points-table-container {
-			@extend .col-xs-8;
+			@extend .col-xs-9;
 			@extend .center-block;
 			display: block;
 			background: rgba(249,249,249,0.16);
@@ -46,6 +46,7 @@
 				td,
 				input {
 					text-align: center;
+					white-space: nowrap;
 				}
 
 				th {
