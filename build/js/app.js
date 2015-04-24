@@ -71,7 +71,7 @@ function detectmob() {
 	}
 	var ua = navigator.userAgent.toLowerCase();
 	var isAndroid = ua.indexOf("android") > -1; //&& ua.indexOf("mobile");
-	var isWindowsPhone = ua.indexOf("iemobile") > -1;
+	var isWindowsPhone = ua.indexOf("mobile") > -1;
 	var isWindowsTablet = ua.indexOf("tablet") > -1;
 	if(isWindowsPhone || isAndroid || isWindowsTablet) {
 		$("#viewport, #footer, .footer-bar").width('125%');
