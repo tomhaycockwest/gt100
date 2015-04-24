@@ -317,6 +317,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/assets\/js\/app-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/js\/app-min.js",
+		"outputAbbreviatedPath": "\/app\/assets\/js\/app-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
 	"\/app\/assets\/js\/jquery.min-min.js": {
 		"fileType": 64,
 		"ignore": 1,
@@ -346,11 +357,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/app\/contact.html": {
+	"\/app\/contact.aspx": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/app\/contact.html",
+		"inputAbbreviatedPath": "\/app\/contact.aspx",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -445,6 +456,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/build\/js\/app.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/build\/js\/app.js",
+		"outputAbbreviatedPath": "\/app\/assets\/js\/app-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 2
+		},
 	"\/build\/kits\/book-your-car.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -468,9 +490,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/kits\/contact.kit",
-		"outputAbbreviatedPath": "\/app\/contact.html",
+		"outputAbbreviatedPath": "\/app\/contact.aspx",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/build\/kits\/driving-days.kit": {
 		"fileType": 2048,
@@ -558,9 +580,9 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/build\/kits\/show-interest.kit",
-		"outputAbbreviatedPath": "\/app\/show-interest.html",
+		"outputAbbreviatedPath": "\/app\/show-interest.aspx",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
+		"outputPathIsSetByUser": 1
 		},
 	"\/build\/kits\/terms.kit": {
 		"fileType": 2048,
