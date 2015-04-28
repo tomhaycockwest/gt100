@@ -10479,6 +10479,35 @@ h1,
   width: 180px;
   border-left: none;
 }
+.book-your-car #intro .availability-container .row .key-container {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 140px;
+  font-size: 10px;
+  text-align: center;
+}
+.book-your-car #intro .availability-container .row .key-container .available-container {
+  width: 50%;
+  float: left;
+}
+.book-your-car #intro .availability-container .row .key-container .available-container .colour {
+  background: #3aaa35;
+  width: 63px;
+  height: 18px;
+  display: block;
+  margin: 5px auto 0 auto;
+}
+.book-your-car #intro .availability-container .row .key-container .unavailable-container {
+  width: 50%;
+  float: left;
+}
+.book-your-car #intro .availability-container .row .key-container .unavailable-container .colour {
+  background: #e30613;
+  width: 63px;
+  height: 18px;
+  display: block;
+  margin: 5px auto 0 auto;
+}
 
 .show-interest #intro {
   background: url("../img/contact.jpg") 50% 0 no-repeat;

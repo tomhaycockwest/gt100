@@ -60,6 +60,42 @@
 					border-left: none;
 				}
 			}
+
+			.row {
+				.key-container {
+					display: block;
+					margin: 20px auto 0 auto;
+					width: 140px;
+					font-size: 10px;
+					text-align: center;
+
+					.available-container {
+						width: 50%;
+						float: left;
+
+						.colour {
+							background: $available;
+							width: 63px;
+							height: 18px;
+							display: block;
+							margin: 5px auto 0 auto;
+						}
+					}
+
+					.unavailable-container {
+						width: 50%;
+						float: left;
+
+						.colour {
+							background: $unavailable;
+							width: 63px;
+							height: 18px;
+							display: block;
+							margin: 5px auto 0 auto;
+						}
+					}
+				}
+			}
 		}
 	}
 }

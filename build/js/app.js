@@ -230,13 +230,13 @@ function CalcTotals(inno) {
         document.getElementById('cmdCars').innerContent = 'Tier 1'
     }
 
-    if (txtTotal <= 3500 && txtTotal > 1001) {
+    if (txtTotal <= 3000 && txtTotal > 1001) {
         document.getElementById('cmdCars').innerHTML = 'Tier 2';
         document.getElementById('cmdCars').innerText = 'Tier 2'
         document.getElementById('cmdCars').innerContent = 'Tier 2'
     }
 
-    if (txtTotal > 3500 ) {
+    if (txtTotal > 3000 ) {
         document.getElementById('cmdCars').innerHTML = 'Tier 3';
         document.getElementById('cmdCars').innerText = 'Tier 3'
         document.getElementById('cmdCars').innerContent = 'Tier 3'
