@@ -18,6 +18,61 @@
 			border-radius: 25px;
 			padding: 25px;
 
+			.date-table {
+				thead {
+					th {
+						width: 60px;
+						text-align: center;
+						padding: 10px;
+
+						a {
+							color: $white;
+
+							&:hover {
+								color: $white;
+							}
+						}
+
+						.form-control {
+							width: auto;
+							background: transparent;
+							color: $white;
+							border: 0px;
+						}
+					}
+				}
+
+				tbody {
+					border-top: solid 2px #878787;
+					border-bottom: solid 2px #878787;
+
+					td {
+						padding: 5px;
+
+						a {
+							color: $white;
+
+							&:hover {
+								color: $white;
+							}
+						}
+
+					}
+
+					.left-arrow {
+						text-align: right;
+					}
+
+					.week-commencing {
+						text-align: center;
+					}
+
+					.right-arrow {
+						text-align: left;
+					}
+				}
+			}
+
 			.availability-table {
 				th {
 					text-align: center;
