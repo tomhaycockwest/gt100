@@ -2101,14 +2101,14 @@ pre code {
   clear: both;
 }
 
-.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .footer-bar .center-col, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .our-cars .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .contact .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .terms .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .show-interest .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .our-cars .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .contact .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .terms .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .show-interest .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .membership #intro .membership-block-container .membership-fee-block, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .footer-bar .right-col, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .footer-bar .left-col, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .our-cars .car-viewer-page-container .container .row .car-container, .contact .car-viewer-page-container .container .row .car-container, .terms .car-viewer-page-container .container .row .car-container, .show-interest .car-viewer-page-container .container .row .car-container, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .membership #intro .membership-block-container, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .our-cars .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .contact .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .terms .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .show-interest .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .points-calculator #intro .points-table-container, .book-your-car #intro .availability-container, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .footer-bar .center-col, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .our-cars .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .contact .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .terms .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .show-interest .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .our-cars .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .contact .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .terms .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .show-interest .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .membership #intro .membership-block-container .membership-fee-block, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .footer-bar .right-col, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .footer-bar .left-col, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .our-cars .car-viewer-page-container .container .row .car-container, .contact .car-viewer-page-container .container .row .car-container, .terms .car-viewer-page-container .container .row .car-container, .show-interest .car-viewer-page-container .container .row .car-container, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .membership #intro .membership-block-container, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .our-cars .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .contact .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .terms .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .show-interest .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .points-calculator #intro .points-table-container, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .book-your-car #intro .availability-container, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
   position: relative;
   min-height: 1px;
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.col-xs-1, .col-xs-2, .footer-bar .center-col, .col-xs-3, .our-cars .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .contact .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .terms .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .show-interest .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .our-cars .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .contact .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .terms .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .show-interest .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .membership #intro .membership-block-container .membership-fee-block, .col-xs-4, .footer-bar .right-col, .col-xs-5, .footer-bar .left-col, .col-xs-6, .our-cars .car-viewer-page-container .container .row .car-container, .contact .car-viewer-page-container .container .row .car-container, .terms .car-viewer-page-container .container .row .car-container, .show-interest .car-viewer-page-container .container .row .car-container, .col-xs-7, .col-xs-8, .membership #intro .membership-block-container, .col-xs-9, .our-cars .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .contact .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .terms .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .show-interest .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .points-calculator #intro .points-table-container, .book-your-car #intro .availability-container, .col-xs-10, .col-xs-11, .col-xs-12 {
+.col-xs-1, .col-xs-2, .footer-bar .center-col, .col-xs-3, .our-cars .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .contact .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .terms .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .show-interest .car-viewer-page-container .container .row .car-container .thumb-container .thumb, .our-cars .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .contact .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .terms .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .show-interest .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .book-container, .membership #intro .membership-block-container .membership-fee-block, .col-xs-4, .footer-bar .right-col, .col-xs-5, .footer-bar .left-col, .col-xs-6, .our-cars .car-viewer-page-container .container .row .car-container, .contact .car-viewer-page-container .container .row .car-container, .terms .car-viewer-page-container .container .row .car-container, .show-interest .car-viewer-page-container .container .row .car-container, .col-xs-7, .col-xs-8, .membership #intro .membership-block-container, .col-xs-9, .our-cars .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .contact .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .terms .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .show-interest .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .points-calculator #intro .points-table-container, .col-xs-10, .book-your-car #intro .availability-container, .col-xs-11, .col-xs-12 {
   float: left;
 }
 
@@ -2144,11 +2144,11 @@ pre code {
   width: 66.66667%;
 }
 
-.col-xs-9, .our-cars .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .contact .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .terms .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .show-interest .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .points-calculator #intro .points-table-container, .book-your-car #intro .availability-container {
+.col-xs-9, .our-cars .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .contact .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .terms .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .show-interest .car-viewer-page-container .container .row .car-container .car-text-container .car-title-book-container .car-title-container, .points-calculator #intro .points-table-container {
   width: 75%;
 }
 
-.col-xs-10 {
+.col-xs-10, .book-your-car #intro .availability-container {
   width: 83.33333%;
 }
 
@@ -10443,24 +10443,41 @@ h1,
   background: rgba(249, 249, 249, 0.16);
   color: #fff;
   border-radius: 25px;
+  padding: 25px;
 }
 .book-your-car #intro .availability-container .availability-table th {
   text-align: center;
+  height: 50px;
+  border-left: solid 1px #878787;
+  border-right: solid 1px #878787;
+  font-size: 13px;
+}
+.book-your-car #intro .availability-container .availability-table th.car {
+  font-size: 20px;
 }
 .book-your-car #intro .availability-container .availability-table td {
   padding: 10px;
+  vertical-align: middle;
+  border: solid 1px #878787;
+  width: 100px;
+  font-size: 12px;
 }
-.book-your-car #intro .availability-container .availability-table td .available {
+.book-your-car #intro .availability-container .availability-table td .available, .book-your-car #intro .availability-container .availability-table td .unavailable {
   display: block;
   width: 75%;
   height: 15px;
   margin: 0 auto;
-  background: green;
+  background: #3aaa35;
+}
+.book-your-car #intro .availability-container .availability-table td .unavailable {
+  background: #e30613;
 }
 .book-your-car #intro .availability-container .availability-table .car {
   background: transparent;
   text-align: left;
   padding: 0;
+  width: 180px;
+  border-left: none;
 }
 
 .show-interest #intro {

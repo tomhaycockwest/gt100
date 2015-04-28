@@ -10,27 +10,45 @@
 		} 
 
 		.availability-container {
-			@extend .col-xs-9;
+			@extend .col-xs-10;
 			@extend .center-block;
 			display: block;
 			background: rgba(249,249,249,0.16);
 			color: $white;
 			border-radius: 25px;
+			padding: 25px;
 
 			.availability-table {
 				th {
 					text-align: center;
+					height: 50px;
+					border-left: solid 1px #878787;
+					border-right: solid 1px #878787;
+					font-size: 13px;
+
+					&.car {
+						font-size: 20px;
+					}
 				}
 
 				td {
 					padding: 10px;
+					vertical-align: middle;
+					border: solid 1px #878787;
+					width: 100px;
+					font-size: 12px;
 
 					.available {
 						display: block;
 				  		width: 75%;
 				 		height: 15px;
 				 		margin: 0 auto;
-				 		background: green;
+				 		background: $available;
+					}
+
+					.unavailable {
+						@extend .available;
+						background: $unavailable;
 					}
 				}
 
@@ -38,6 +56,8 @@
 					background: transparent;
 					text-align: left;
 					padding: 0;
+					width: 180px;
+					border-left: none;
 				}
 			}
 		}
