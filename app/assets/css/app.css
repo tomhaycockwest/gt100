@@ -10226,9 +10226,10 @@ h1,
 .our-cars #intro .navbar-container .navbar-nav li .btn-blue, .contact #intro .navbar-container .navbar-nav li .btn-blue, .terms #intro .navbar-container .navbar-nav li .btn-blue, .show-interest #intro .navbar-container .navbar-nav li .btn-blue {
   color: #fff;
   font-size: 22px;
+  padding: 20px 45px;
 }
 .our-cars #intro .navbar-container .navbar-nav li .slim, .contact #intro .navbar-container .navbar-nav li .slim, .terms #intro .navbar-container .navbar-nav li .slim, .show-interest #intro .navbar-container .navbar-nav li .slim {
-  padding: 5px 45px;
+  padding: 10px 45px;
 }
 .our-cars #intro .car-subtitle, .contact #intro .car-subtitle, .terms #intro .car-subtitle, .show-interest #intro .car-subtitle {
   margin-top: 100px;
