@@ -1,767 +1,605 @@
-.input-group-addon.input-lg,
-.input-group-lg > .input-group-addon,
-.input-group-lg > .input-group-btn > .input-group-addon.btn,
-.input-group-lg > .input-group-btn > .input-group-addon.btn-translucent,
-.input-group-lg > .input-group-btn > .input-group-addon.btn-blue {
-  padding: 10px 16px;
-  font-size: 18px;
+.pager li {
+  display: inline;
+}
+.pager li > a,
+.pager li > span {
+  display: inline-block;
+  padding: 5px 14px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+}
+.pager li > a:hover,
+.pager li > a:focus {
+  text-decoration: none;
+  background-color: #eeeeee;
+}
+.pager .next > a,
+.pager .next > span {
+  float: right;
+}
+.pager .previous > a,
+.pager .previous > span {
+  float: left;
+}
+.pager .disabled > a,
+.pager .disabled > a:hover,
+.pager .disabled > a:focus,
+.pager .disabled > span {
+  color: #777777;
+  background-color: #fff;
+  cursor: not-allowed;
+}
+
+.label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+}
+.label:empty {
+  display: none;
+}
+.btn .label, .btn-translucent .label, .btn-blue .label {
+  position: relative;
+  top: -1px;
+}
+
+a.label:hover, a.label:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.label-default {
+  background-color: #777777;
+}
+.label-default[href]:hover, .label-default[href]:focus {
+  background-color: #5e5e5e;
+}
+
+.label-primary {
+  background-color: #337ab7;
+}
+.label-primary[href]:hover, .label-primary[href]:focus {
+  background-color: #286090;
+}
+
+.label-success {
+  background-color: #5cb85c;
+}
+.label-success[href]:hover, .label-success[href]:focus {
+  background-color: #449d44;
+}
+
+.label-info {
+  background-color: #5bc0de;
+}
+.label-info[href]:hover, .label-info[href]:focus {
+  background-color: #31b0d5;
+}
+
+.label-warning {
+  background-color: #f0ad4e;
+}
+.label-warning[href]:hover, .label-warning[href]:focus {
+  background-color: #ec971f;
+}
+
+.label-danger {
+  background-color: #d9534f;
+}
+.label-danger[href]:hover, .label-danger[href]:focus {
+  background-color: #c9302c;
+}
+
+.badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+  line-height: 1;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  background-color: #777777;
+  border-radius: 10px;
+}
+.badge:empty {
+  display: none;
+}
+.btn .badge, .btn-translucent .badge, .btn-blue .badge {
+  position: relative;
+  top: -1px;
+}
+.btn-xs .badge, .btn-group-xs > .btn .badge, .btn-group-xs > .btn-translucent .badge, .btn-group-xs > .btn-blue .badge, .btn-group-xs > .btn .badge, .btn-group-xs > .btn-translucent .badge, .btn-group-xs > .btn-blue .badge {
+  top: 0;
+  padding: 1px 5px;
+}
+.list-group-item.active > .badge, .nav-pills > .active > a > .badge {
+  color: #337ab7;
+  background-color: #fff;
+}
+.list-group-item > .badge {
+  float: right;
+}
+.list-group-item > .badge + .badge {
+  margin-right: 5px;
+}
+.nav-pills > li > a > .badge {
+  margin-left: 3px;
+}
+
+a.badge:hover, a.badge:focus {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.jumbotron {
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eeeeee;
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #d5d5d5;
+}
+.container .jumbotron, .container-fluid .jumbotron {
   border-radius: 6px;
 }
-.input-group-addon input[type="radio"],
-.input-group-addon input[type="checkbox"] {
+.jumbotron .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .jumbotron {
+    padding: 48px 0;
+  }
+  .container .jumbotron, .container-fluid .jumbotron {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .jumbotron h1,
+  .jumbotron .h1 {
+    font-size: 63px;
+  }
+}
+
+.thumbnail {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  -webkit-transition: border 0.2s ease-in-out;
+  -o-transition: border 0.2s ease-in-out;
+  transition: border 0.2s ease-in-out;
+}
+.thumbnail > img,
+.thumbnail a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thumbnail .caption {
+  padding: 9px;
+  color: #333333;
+}
+
+a.thumbnail:hover,
+a.thumbnail:focus,
+a.thumbnail.active {
+  border-color: #337ab7;
+}
+
+.alert {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.alert h4 {
+  margin-top: 0;
+  color: inherit;
+}
+.alert .alert-link {
+  font-weight: bold;
+}
+.alert > p,
+.alert > ul {
+  margin-bottom: 0;
+}
+.alert > p + p {
+  margin-top: 5px;
+}
+
+.alert-dismissable,
+.alert-dismissible {
+  padding-right: 35px;
+}
+.alert-dismissable .close,
+.alert-dismissible .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  color: inherit;
+}
+
+.alert-success {
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+  color: #3c763d;
+}
+.alert-success hr {
+  border-top-color: #c9e2b3;
+}
+.alert-success .alert-link {
+  color: #2b542c;
+}
+
+.alert-info {
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+  color: #31708f;
+}
+.alert-info hr {
+  border-top-color: #a6e1ec;
+}
+.alert-info .alert-link {
+  color: #245269;
+}
+
+.alert-warning {
+  background-color: #fcf8e3;
+  border-color: #faebcc;
+  color: #8a6d3b;
+}
+.alert-warning hr {
+  border-top-color: #f7e1b5;
+}
+.alert-warning .alert-link {
+  color: #66512c;
+}
+
+.alert-danger {
+  background-color: #f2dede;
+  border-color: #ebccd1;
+  color: #a94442;
+}
+.alert-danger hr {
+  border-top-color: #e4b9c0;
+}
+.alert-danger .alert-link {
+  color: #843534;
+}
+
+@-webkit-keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.progress {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #337ab7;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  -o-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+
+.progress-striped .progress-bar,
+.progress-bar-striped {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+
+.progress.active .progress-bar,
+.progress-bar.active {
+  -webkit-animation: progress-bar-stripes 2s linear infinite;
+  -o-animation: progress-bar-stripes 2s linear infinite;
+  animation: progress-bar-stripes 2s linear infinite;
+}
+
+.progress-bar-success {
+  background-color: #5cb85c;
+}
+.progress-striped .progress-bar-success {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.progress-bar-info {
+  background-color: #5bc0de;
+}
+.progress-striped .progress-bar-info {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.progress-bar-warning {
+  background-color: #f0ad4e;
+}
+.progress-striped .progress-bar-warning {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.progress-bar-danger {
+  background-color: #d9534f;
+}
+.progress-striped .progress-bar-danger {
+  background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+}
+
+.media {
+  margin-top: 15px;
+}
+.media:first-child {
   margin-top: 0;
 }
 
-.input-group .form-control:first-child,
-.input-group-addon:first-child,
-.input-group-btn:first-child > .btn,
-.input-group-btn:first-child > .btn-translucent,
-.input-group-btn:first-child > .btn-blue,
-.input-group-btn:first-child > .btn-group > .btn,
-.input-group-btn:first-child > .btn-group > .btn-translucent,
-.input-group-btn:first-child > .btn-group > .btn-blue,
-.input-group-btn:first-child > .dropdown-toggle,
-.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
-.input-group-btn:last-child > .btn-translucent:not(:last-child):not(.dropdown-toggle),
-.input-group-btn:last-child > .btn-blue:not(:last-child):not(.dropdown-toggle),
-.input-group-btn:last-child > .btn-group:not(:last-child) > .btn,
-.input-group-btn:last-child > .btn-group:not(:last-child) > .btn-translucent,
-.input-group-btn:last-child > .btn-group:not(:last-child) > .btn-blue {
-  border-bottom-right-radius: 0;
-  border-top-right-radius: 0;
+.media,
+.media-body {
+  zoom: 1;
+  overflow: hidden;
 }
 
-.input-group-addon:first-child {
-  border-right: 0;
+.media-body {
+  width: 10000px;
 }
 
-.input-group .form-control:last-child,
-.input-group-addon:last-child,
-.input-group-btn:last-child > .btn,
-.input-group-btn:last-child > .btn-translucent,
-.input-group-btn:last-child > .btn-blue,
-.input-group-btn:last-child > .btn-group > .btn,
-.input-group-btn:last-child > .btn-group > .btn-translucent,
-.input-group-btn:last-child > .btn-group > .btn-blue,
-.input-group-btn:last-child > .dropdown-toggle,
-.input-group-btn:first-child > .btn:not(:first-child),
-.input-group-btn:first-child > .btn-translucent:not(:first-child),
-.input-group-btn:first-child > .btn-blue:not(:first-child),
-.input-group-btn:first-child > .btn-group:not(:first-child) > .btn,
-.input-group-btn:first-child > .btn-group:not(:first-child) > .btn-translucent,
-.input-group-btn:first-child > .btn-group:not(:first-child) > .btn-blue {
-  border-bottom-left-radius: 0;
-  border-top-left-radius: 0;
+.media-object {
+  display: block;
 }
 
-.input-group-addon:last-child {
-  border-left: 0;
+.media-right,
+.media > .pull-right {
+  padding-left: 10px;
 }
 
-.input-group-btn {
-  position: relative;
-  font-size: 0;
-  white-space: nowrap;
-}
-.input-group-btn > .btn, .input-group-btn > .btn-translucent, .input-group-btn > .btn-blue {
-  position: relative;
-}
-.input-group-btn > .btn + .btn, .input-group-btn > .btn-translucent + .btn, .input-group-btn > .btn-blue + .btn, .input-group-btn > .btn + .btn-translucent, .input-group-btn > .btn-translucent + .btn-translucent, .input-group-btn > .btn-blue + .btn-translucent, .input-group-btn > .btn + .btn-blue, .input-group-btn > .btn-translucent + .btn-blue, .input-group-btn > .btn-blue + .btn-blue {
-  margin-left: -1px;
-}
-.input-group-btn > .btn:hover, .input-group-btn > .btn-translucent:hover, .input-group-btn > .btn-blue:hover, .input-group-btn > .btn:focus, .input-group-btn > .btn-translucent:focus, .input-group-btn > .btn-blue:focus, .input-group-btn > .btn:active, .input-group-btn > .btn-translucent:active, .input-group-btn > .btn-blue:active {
-  z-index: 2;
-}
-.input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-translucent, .input-group-btn:first-child > .btn-blue,
-.input-group-btn:first-child > .btn-group {
-  margin-right: -1px;
-}
-.input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-translucent, .input-group-btn:last-child > .btn-blue,
-.input-group-btn:last-child > .btn-group {
-  margin-left: -1px;
+.media-left,
+.media > .pull-left {
+  padding-right: 10px;
 }
 
-.nav {
-  margin-bottom: 0;
+.media-left,
+.media-right,
+.media-body {
+  display: table-cell;
+  vertical-align: top;
+}
+
+.media-middle {
+  vertical-align: middle;
+}
+
+.media-bottom {
+  vertical-align: bottom;
+}
+
+.media-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.media-list {
   padding-left: 0;
   list-style: none;
 }
-.nav:before, .nav:after {
-  content: " ";
-  display: table;
+
+.list-group {
+  margin-bottom: 20px;
+  padding-left: 0;
 }
-.nav:after {
-  clear: both;
-}
-.nav > li {
-  position: relative;
-  display: block;
-}
-.nav > li > a {
+
+.list-group-item {
   position: relative;
   display: block;
   padding: 10px 15px;
-}
-.nav > li > a:hover, .nav > li > a:focus {
-  text-decoration: none;
-  background-color: #eeeeee;
-}
-.nav > li.disabled > a {
-  color: #777777;
-}
-.nav > li.disabled > a:hover, .nav > li.disabled > a:focus {
-  color: #777777;
-  text-decoration: none;
-  background-color: transparent;
-  cursor: not-allowed;
-}
-.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: #eeeeee;
-  border-color: #337ab7;
-}
-.nav .nav-divider {
-  height: 1px;
-  margin: 9px 0;
-  overflow: hidden;
-  background-color: #e5e5e5;
-}
-.nav > li > a > img {
-  max-width: none;
-}
-
-.nav-tabs {
-  border-bottom: 1px solid #ddd;
-}
-.nav-tabs > li {
-  float: left;
   margin-bottom: -1px;
-}
-.nav-tabs > li > a {
-  margin-right: 2px;
-  line-height: 1.42857;
-  border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
-}
-.nav-tabs > li > a:hover {
-  border-color: #eeeeee #eeeeee #ddd;
-}
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-  color: #555555;
   background-color: #fff;
   border: 1px solid #ddd;
-  border-bottom-color: transparent;
-  cursor: default;
 }
-
-.nav-pills > li {
-  float: left;
-}
-.nav-pills > li > a {
-  border-radius: 4px;
-}
-.nav-pills > li + li {
-  margin-left: 2px;
-}
-.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {
-  color: #fff;
-  background-color: #337ab7;
-}
-
-.nav-stacked > li {
-  float: none;
-}
-.nav-stacked > li + li {
-  margin-top: 2px;
-  margin-left: 0;
-}
-
-.nav-justified, .nav-tabs.nav-justified {
-  width: 100%;
-}
-.nav-justified > li, .nav-tabs.nav-justified > li {
-  float: none;
-}
-.nav-justified > li > a, .nav-tabs.nav-justified > li > a {
-  text-align: center;
-  margin-bottom: 5px;
-}
-.nav-justified > .dropdown .dropdown-menu {
-  top: auto;
-  left: auto;
-}
-@media (min-width: 768px) {
-  .nav-justified > li, .nav-tabs.nav-justified > li {
-    display: table-cell;
-    width: 1%;
-  }
-  .nav-justified > li > a, .nav-tabs.nav-justified > li > a {
-    margin-bottom: 0;
-  }
-}
-
-.nav-tabs-justified, .nav-tabs.nav-justified {
-  border-bottom: 0;
-}
-.nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-  margin-right: 0;
-  border-radius: 4px;
-}
-.nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
-.nav-tabs-justified > .active > a:hover,
-.nav-tabs.nav-justified > .active > a:hover,
-.nav-tabs-justified > .active > a:focus,
-.nav-tabs.nav-justified > .active > a:focus {
-  border: 1px solid #ddd;
-}
-@media (min-width: 768px) {
-  .nav-tabs-justified > li > a, .nav-tabs.nav-justified > li > a {
-    border-bottom: 1px solid #ddd;
-    border-radius: 4px 4px 0 0;
-  }
-  .nav-tabs-justified > .active > a, .nav-tabs.nav-justified > .active > a,
-  .nav-tabs-justified > .active > a:hover,
-  .nav-tabs.nav-justified > .active > a:hover,
-  .nav-tabs-justified > .active > a:focus,
-  .nav-tabs.nav-justified > .active > a:focus {
-    border-bottom-color: #fff;
-  }
-}
-
-.tab-content > .tab-pane {
-  display: none;
-}
-.tab-content > .active {
-  display: block;
-}
-
-.nav-tabs .dropdown-menu {
-  margin-top: -1px;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-}
-
-.navbar {
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-}
-.navbar:before, .navbar:after {
-  content: " ";
-  display: table;
-}
-.navbar:after {
-  clear: both;
-}
-@media (min-width: 768px) {
-  .navbar {
-    border-radius: 4px;
-  }
-}
-
-.navbar-header:before, .navbar-header:after {
-  content: " ";
-  display: table;
-}
-.navbar-header:after {
-  clear: both;
-}
-@media (min-width: 768px) {
-  .navbar-header {
-    float: left;
-  }
-}
-
-.navbar-collapse {
-  overflow-x: visible;
-  padding-right: 15px;
-  padding-left: 15px;
-  border-top: 1px solid transparent;
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
-  -webkit-overflow-scrolling: touch;
-}
-.navbar-collapse:before, .navbar-collapse:after {
-  content: " ";
-  display: table;
-}
-.navbar-collapse:after {
-  clear: both;
-}
-.navbar-collapse.in {
-  overflow-y: auto;
-}
-@media (min-width: 768px) {
-  .navbar-collapse {
-    width: auto;
-    border-top: 0;
-    box-shadow: none;
-  }
-  .navbar-collapse.collapse {
-    display: block !important;
-    height: auto !important;
-    padding-bottom: 0;
-    overflow: visible !important;
-  }
-  .navbar-collapse.in {
-    overflow-y: visible;
-  }
-  .navbar-fixed-top .navbar-collapse, .navbar-static-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
-    padding-left: 0;
-    padding-right: 0;
-  }
-}
-
-.navbar-fixed-top .navbar-collapse,
-.navbar-fixed-bottom .navbar-collapse {
-  max-height: 340px;
-}
-@media (max-device-width: 480px) and (orientation: landscape) {
-  .navbar-fixed-top .navbar-collapse,
-  .navbar-fixed-bottom .navbar-collapse {
-    max-height: 200px;
-  }
-}
-
-.container > .navbar-header,
-.container > .navbar-collapse,
-.container-fluid > .navbar-header,
-.container-fluid > .navbar-collapse {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-@media (min-width: 768px) {
-  .container > .navbar-header,
-  .container > .navbar-collapse,
-  .container-fluid > .navbar-header,
-  .container-fluid > .navbar-collapse {
-    margin-right: 0;
-    margin-left: 0;
-  }
-}
-
-.navbar-static-top {
-  z-index: 1000;
-  border-width: 0 0 1px;
-}
-@media (min-width: 768px) {
-  .navbar-static-top {
-    border-radius: 0;
-  }
-}
-
-.navbar-fixed-top,
-.navbar-fixed-bottom {
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-@media (min-width: 768px) {
-  .navbar-fixed-top,
-  .navbar-fixed-bottom {
-    border-radius: 0;
-  }
-}
-
-.navbar-fixed-top {
-  top: 0;
-  border-width: 0 0 1px;
-}
-
-.navbar-fixed-bottom {
-  bottom: 0;
-  margin-bottom: 0;
-  border-width: 1px 0 0;
-}
-
-.navbar-brand {
-  float: left;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
-  height: 50px;
-}
-.navbar-brand:hover, .navbar-brand:focus {
-  text-decoration: none;
-}
-.navbar-brand > img {
-  display: block;
-}
-@media (min-width: 768px) {
-  .navbar > .container .navbar-brand, .navbar > .container-fluid .navbar-brand {
-    margin-left: -15px;
-  }
-}
-
-.navbar-toggle {
-  position: relative;
-  float: right;
-  margin-right: 15px;
-  padding: 9px 10px;
-  margin-top: 8px;
-  margin-bottom: 8px;
-  background-color: transparent;
-  background-image: none;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-.navbar-toggle:focus {
-  outline: 0;
-}
-.navbar-toggle .icon-bar {
-  display: block;
-  width: 22px;
-  height: 2px;
-  border-radius: 1px;
-}
-.navbar-toggle .icon-bar + .icon-bar {
-  margin-top: 4px;
-}
-@media (min-width: 768px) {
-  .navbar-toggle {
-    display: none;
-  }
-}
-
-.navbar-nav {
-  margin: 7.5px -15px;
-}
-.navbar-nav > li > a {
-  padding-top: 10px;
-  padding-bottom: 10px;
-  line-height: 20px;
-}
-@media (max-width: 767px) {
-  .navbar-nav .open .dropdown-menu {
-    position: static;
-    float: none;
-    width: auto;
-    margin-top: 0;
-    background-color: transparent;
-    border: 0;
-    box-shadow: none;
-  }
-  .navbar-nav .open .dropdown-menu > li > a,
-  .navbar-nav .open .dropdown-menu .dropdown-header {
-    padding: 5px 15px 5px 25px;
-  }
-  .navbar-nav .open .dropdown-menu > li > a {
-    line-height: 20px;
-  }
-  .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-nav .open .dropdown-menu > li > a:focus {
-    background-image: none;
-  }
-}
-@media (min-width: 768px) {
-  .navbar-nav {
-    float: left;
-    margin: 0;
-  }
-  .navbar-nav > li {
-    float: left;
-  }
-  .navbar-nav > li > a {
-    padding-top: 15px;
-    padding-bottom: 15px;
-  }
-}
-
-.navbar-form {
-  margin-left: -15px;
-  margin-right: -15px;
-  padding: 10px 15px;
-  border-top: 1px solid transparent;
-  border-bottom: 1px solid transparent;
-  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1), 0 1px 0 rgba(255, 255, 255, 0.1);
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-@media (min-width: 768px) {
-  .navbar-form .form-group {
-    display: inline-block;
-    margin-bottom: 0;
-    vertical-align: middle;
-  }
-  .navbar-form .form-control {
-    display: inline-block;
-    width: auto;
-    vertical-align: middle;
-  }
-  .navbar-form .form-control-static {
-    display: inline-block;
-  }
-  .navbar-form .input-group {
-    display: inline-table;
-    vertical-align: middle;
-  }
-  .navbar-form .input-group .input-group-addon,
-  .navbar-form .input-group .input-group-btn,
-  .navbar-form .input-group .form-control {
-    width: auto;
-  }
-  .navbar-form .input-group > .form-control {
-    width: 100%;
-  }
-  .navbar-form .control-label {
-    margin-bottom: 0;
-    vertical-align: middle;
-  }
-  .navbar-form .radio,
-  .navbar-form .checkbox {
-    display: inline-block;
-    margin-top: 0;
-    margin-bottom: 0;
-    vertical-align: middle;
-  }
-  .navbar-form .radio label,
-  .navbar-form .checkbox label {
-    padding-left: 0;
-  }
-  .navbar-form .radio input[type="radio"],
-  .navbar-form .checkbox input[type="checkbox"] {
-    position: relative;
-    margin-left: 0;
-  }
-  .navbar-form .has-feedback .form-control-feedback {
-    top: 0;
-  }
-}
-@media (max-width: 767px) {
-  .navbar-form .form-group {
-    margin-bottom: 5px;
-  }
-  .navbar-form .form-group:last-child {
-    margin-bottom: 0;
-  }
-}
-@media (min-width: 768px) {
-  .navbar-form {
-    width: auto;
-    border: 0;
-    margin-left: 0;
-    margin-right: 0;
-    padding-top: 0;
-    padding-bottom: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-  }
-}
-
-.navbar-nav > li > .dropdown-menu {
-  margin-top: 0;
-  border-top-right-radius: 0;
-  border-top-left-radius: 0;
-}
-
-.navbar-fixed-bottom .navbar-nav > li > .dropdown-menu {
-  margin-bottom: 0;
+.list-group-item:first-child {
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
+}
+.list-group-item:last-child {
+  margin-bottom: 0;
+  border-bottom-right-radius: 4px;
+  border-bottom-left-radius: 4px;
 }
 
-.navbar-btn {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
-.navbar-btn.btn-sm, .btn-group-sm > .navbar-btn.btn, .btn-group-sm > .navbar-btn.btn-translucent, .btn-group-sm > .navbar-btn.btn-blue {
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-.navbar-btn.btn-xs, .btn-group-xs > .navbar-btn.btn, .btn-group-xs > .navbar-btn.btn-translucent, .btn-group-xs > .navbar-btn.btn-blue {
-  margin-top: 14px;
-  margin-bottom: 14px;
-}
-
-.navbar-text {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-@media (min-width: 768px) {
-  .navbar-text {
-    float: left;
-    margin-left: 15px;
-    margin-right: 15px;
-  }
-}
-
-@media (min-width: 768px) {
-  .navbar-left {
-    float: left !important;
-  }
-
-  .navbar-right {
-    float: right !important;
-    margin-right: -15px;
-  }
-  .navbar-right ~ .navbar-right {
-    margin-right: 0;
-  }
-}
-.navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
-}
-.navbar-default .navbar-brand {
-  color: #777;
-}
-.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
-  background-color: transparent;
-}
-.navbar-default .navbar-text {
-  color: #777;
-}
-.navbar-default .navbar-nav > li > a {
-  color: #777;
-}
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #333;
-  background-color: transparent;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-  color: #555;
-  background-color: #e7e7e7;
-}
-.navbar-default .navbar-nav > .disabled > a, .navbar-default .navbar-nav > .disabled > a:hover, .navbar-default .navbar-nav > .disabled > a:focus {
-  color: #ccc;
-  background-color: transparent;
-}
-.navbar-default .navbar-toggle {
-  border-color: #ddd;
-}
-.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
-  background-color: #ddd;
-}
-.navbar-default .navbar-toggle .icon-bar {
-  background-color: #888;
-}
-.navbar-default .navbar-collapse,
-.navbar-default .navbar-form {
-  border-color: #e7e7e7;
-}
-.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-  background-color: #e7e7e7;
+a.list-group-item {
   color: #555;
 }
-@media (max-width: 767px) {
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
-    color: #777;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #333;
-    background-color: transparent;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #555;
-    background-color: #e7e7e7;
-  }
-  .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #ccc;
-    background-color: transparent;
-  }
-}
-.navbar-default .navbar-link {
-  color: #777;
-}
-.navbar-default .navbar-link:hover {
+a.list-group-item .list-group-item-heading {
   color: #333;
 }
-.navbar-default .btn-link {
-  color: #777;
-}
-.navbar-default .btn-link:hover, .navbar-default .btn-link:focus {
-  color: #333;
-}
-.navbar-default .btn-link[disabled]:hover, .navbar-default .btn-link[disabled]:focus, fieldset[disabled] .navbar-default .btn-link:hover, fieldset[disabled] .navbar-default .btn-link:focus {
-  color: #ccc;
+a.list-group-item:hover, a.list-group-item:focus {
+  text-decoration: none;
+  color: #555;
+  background-color: #f5f5f5;
 }
 
-.navbar-inverse {
-  background-color: #222;
-  border-color: #090909;
+.list-group-item.disabled, .list-group-item.disabled:hover, .list-group-item.disabled:focus {
+  background-color: #eeeeee;
+  color: #777777;
+  cursor: not-allowed;
 }
-.navbar-inverse .navbar-brand {
-  color: #9d9d9d;
+.list-group-item.disabled .list-group-item-heading, .list-group-item.disabled:hover .list-group-item-heading, .list-group-item.disabled:focus .list-group-item-heading {
+  color: inherit;
 }
-.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+.list-group-item.disabled .list-group-item-text, .list-group-item.disabled:hover .list-group-item-text, .list-group-item.disabled:focus .list-group-item-text {
+  color: #777777;
+}
+.list-group-item.active, .list-group-item.active:hover, .list-group-item.active:focus {
+  z-index: 2;
   color: #fff;
-  background-color: transparent;
+  background-color: #337ab7;
+  border-color: #337ab7;
 }
-.navbar-inverse .navbar-text {
-  color: #9d9d9d;
+.list-group-item.active .list-group-item-heading,
+.list-group-item.active .list-group-item-heading > small,
+.list-group-item.active .list-group-item-heading > .small, .list-group-item.active:hover .list-group-item-heading,
+.list-group-item.active:hover .list-group-item-heading > small,
+.list-group-item.active:hover .list-group-item-heading > .small, .list-group-item.active:focus .list-group-item-heading,
+.list-group-item.active:focus .list-group-item-heading > small,
+.list-group-item.active:focus .list-group-item-heading > .small {
+  color: inherit;
 }
-.navbar-inverse .navbar-nav > li > a {
-  color: #9d9d9d;
+.list-group-item.active .list-group-item-text, .list-group-item.active:hover .list-group-item-text, .list-group-item.active:focus .list-group-item-text {
+  color: #c7ddef;
 }
-.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+
+.list-group-item-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+}
+
+a.list-group-item-success {
+  color: #3c763d;
+}
+a.list-group-item-success .list-group-item-heading {
+  color: inherit;
+}
+a.list-group-item-success:hover, a.list-group-item-success:focus {
+  color: #3c763d;
+  background-color: #d0e9c6;
+}
+a.list-group-item-success.active, a.list-group-item-success.active:hover, a.list-group-item-success.active:focus {
   color: #fff;
-  background-color: transparent;
+  background-color: #3c763d;
+  border-color: #3c763d;
 }
-.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+
+.list-group-item-info {
+  color: #31708f;
+  background-color: #d9edf7;
+}
+
+a.list-group-item-info {
+  color: #31708f;
+}
+a.list-group-item-info .list-group-item-heading {
+  color: inherit;
+}
+a.list-group-item-info:hover, a.list-group-item-info:focus {
+  color: #31708f;
+  background-color: #c4e3f3;
+}
+a.list-group-item-info.active, a.list-group-item-info.active:hover, a.list-group-item-info.active:focus {
   color: #fff;
-  background-color: #090909;
+  background-color: #31708f;
+  border-color: #31708f;
 }
-.navbar-inverse .navbar-nav > .disabled > a, .navbar-inverse .navbar-nav > .disabled > a:hover, .navbar-inverse .navbar-nav > .disabled > a:focus {
-  color: #444;
-  background-color: transparent;
+
+.list-group-item-warning {
+  color: #8a6d3b;
+  background-color: #fcf8e3;
 }
-.navbar-inverse .navbar-toggle {
-  border-color: #333;
+
+a.list-group-item-warning {
+  color: #8a6d3b;
 }
-.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
-  background-color: #333;
+a.list-group-item-warning .list-group-item-heading {
+  color: inherit;
 }
-.navbar-inverse .navbar-toggle .icon-bar {
-  background-color: #fff;
+a.list-group-item-warning:hover, a.list-group-item-warning:focus {
+  color: #8a6d3b;
+  background-color: #faf2cc;
 }
-.navbar-inverse .navbar-collapse,
-.navbar-inverse .navbar-form {
-  border-color: #101010;
-}
-.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
-  background-color: #090909;
+a.list-group-item-warning.active, a.list-group-item-warning.active:hover, a.list-group-item-warning.active:focus {
   color: #fff;
+  background-color: #8a6d3b;
+  border-color: #8a6d3b;
 }
-@media (max-width: 767px) {
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
-    border-color: #090909;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
-    background-color: #090909;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-    color: #9d9d9d;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
-    color: #fff;
-    background-color: transparent;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
-    color: #fff;
-    background-color: #090909;
-  }
-  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
-    color: #444;
-    background-color: transparent;
-  }
+
+.list-group-item-danger {
+  color: #a94442;
+  background-color: #f2dede;
 }
-.navbar-inverse .navbar-link {
-  color: #9d9d9d;
+
+a.list-group-item-danger {
+  color: #a94442;
 }
-.navbar-inverse .navbar-link:hover {
+a.list-group-item-danger .list-group-item-heading {
+  color: inherit;
+}
+a.list-group-item-danger:hover, a.list-group-item-danger:focus {
+  color: #a94442;
+  background-color: #ebcccc;
+}
+a.list-group-item-danger.active, a.list-group-item-danger.active:hover, a.list-group-item-danger.active:focus {
   color: #fff;
+  background-color: #a94442;
+  border-color: #a94442;
 }
-.navbar-inverse .btn-link {
-  color: #9d9d9d;
+
+.list-group-item-heading {
+  margin-top: 0;
+  margin-bottom: 5px;
 }
-.navbar-inverse .btn-link:hover, .navbar-inverse .btn-link:focus {
-  color: #fff;
-}
-.navbar-inverse .btn-link[disabled]:hover, .navbar-inverse .btn-link[disabled]:focus, fieldset[disabled] .navbar-inverse .btn-link:hover, fieldset[disabled] .navbar-inverse .btn-link:focus {
-  color: #444;
+
+.list-group-item-text {
+  margin-bottom: 0;
+  line-height: 1.3;
 }
 
 .panel {
@@ -1864,6 +1702,255 @@ button.close {
   position: fixed;
 }
 
+.visible-xs {
+  display: none !important;
+}
+
+.visible-sm {
+  display: none !important;
+}
+
+.visible-md {
+  display: none !important;
+}
+
+.visible-lg {
+  display: none !important;
+}
+
+.visible-xs-block,
+.visible-xs-inline,
+.visible-xs-inline-block,
+.visible-sm-block,
+.visible-sm-inline,
+.visible-sm-inline-block,
+.visible-md-block,
+.visible-md-inline,
+.visible-md-inline-block,
+.visible-lg-block,
+.visible-lg-inline,
+.visible-lg-inline-block {
+  display: none !important;
+}
+
+@media (max-width: 767px) {
+  .visible-xs {
+    display: block !important;
+  }
+
+  table.visible-xs {
+    display: table;
+  }
+
+  tr.visible-xs {
+    display: table-row !important;
+  }
+
+  th.visible-xs,
+  td.visible-xs {
+    display: table-cell !important;
+  }
+}
+@media (max-width: 767px) {
+  .visible-xs-block {
+    display: block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .visible-xs-inline {
+    display: inline !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .visible-xs-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm {
+    display: block !important;
+  }
+
+  table.visible-sm {
+    display: table;
+  }
+
+  tr.visible-sm {
+    display: table-row !important;
+  }
+
+  th.visible-sm,
+  td.visible-sm {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .visible-sm-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md {
+    display: block !important;
+  }
+
+  table.visible-md {
+    display: table;
+  }
+
+  tr.visible-md {
+    display: table-row !important;
+  }
+
+  th.visible-md,
+  td.visible-md {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .visible-md-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-lg {
+    display: block !important;
+  }
+
+  table.visible-lg {
+    display: table;
+  }
+
+  tr.visible-lg {
+    display: table-row !important;
+  }
+
+  th.visible-lg,
+  td.visible-lg {
+    display: table-cell !important;
+  }
+}
+@media (min-width: 1200px) {
+  .visible-lg-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-lg-inline {
+    display: inline !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .visible-lg-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hidden-xs {
+    display: none !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .hidden-sm {
+    display: none !important;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hidden-md {
+    display: none !important;
+  }
+}
+@media (min-width: 1200px) {
+  .hidden-lg {
+    display: none !important;
+  }
+}
+.visible-print {
+  display: none !important;
+}
+
+@media print {
+  .visible-print {
+    display: block !important;
+  }
+
+  table.visible-print {
+    display: table;
+  }
+
+  tr.visible-print {
+    display: table-row !important;
+  }
+
+  th.visible-print,
+  td.visible-print {
+    display: table-cell !important;
+  }
+}
+.visible-print-block {
+  display: none !important;
+}
+@media print {
+  .visible-print-block {
+    display: block !important;
+  }
+}
+
+.visible-print-inline {
+  display: none !important;
+}
+@media print {
+  .visible-print-inline {
+    display: inline !important;
+  }
+}
+
+.visible-print-inline-block {
+  display: none !important;
+}
+@media print {
+  .visible-print-inline-block {
+    display: inline-block !important;
+  }
+}
+
+@media print {
+  .hidden-print {
+    display: none !important;
+  }
+}
 /*!
  *  Font Awesome 4.3.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
@@ -1877,7 +1964,7 @@ button.close {
   font-weight: normal;
   font-style: normal;
 }
-.fa {
+.fa, .book-your-car #intro .availability-container .date-table .active-month, .book-your-car #intro .availability-container .availability-table .active-day {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -1949,10 +2036,10 @@ button.close {
   float: left;
 }
 
-.fa.pull-left {
+.fa.pull-left, .book-your-car #intro .availability-container .date-table .pull-left.active-month, .book-your-car #intro .availability-container .availability-table .pull-left.active-day {
   margin-right: .3em;
 }
-.fa.pull-right {
+.fa.pull-right, .book-your-car #intro .availability-container .date-table .pull-right.active-month, .book-your-car #intro .availability-container .availability-table .pull-right.active-day {
   margin-left: .3em;
 }
 
@@ -2000,7 +2087,7 @@ button.close {
   transform: rotate(180deg);
 }
 
-.fa-rotate-270 {
+.fa-rotate-270, .book-your-car #intro .availability-container .date-table .active-month, .book-your-car #intro .availability-container .availability-table .active-day {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -2024,6 +2111,8 @@ button.close {
 :root .fa-rotate-90,
 :root .fa-rotate-180,
 :root .fa-rotate-270,
+:root .book-your-car #intro .availability-container .date-table .active-month,
+:root .book-your-car #intro .availability-container .availability-table .active-day,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
   filter: none;
@@ -2351,7 +2440,7 @@ button.close {
   content: "";
 }
 
-.fa-play:before {
+.fa-play:before, .book-your-car #intro .availability-container .date-table .active-month:before, .book-your-car #intro .availability-container .availability-table .active-day:before {
   content: "";
 }
 
@@ -4348,6 +4437,170 @@ ul {
   margin-bottom: 40px;
 }
 
+/* Non-responsive overrides
+ *
+ * Utilize the following CSS to disable the responsive-ness of the container,
+ * grid system, and navbar.
+ */
+/* Reset the container */
+/* Demonstrate the grids */
+.container .navbar-header,
+.container .navbar-collapse {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Always float the navbar header */
+.navbar-header {
+  float: left;
+}
+
+/* Undo the collapsing navbar */
+.navbar-collapse {
+  display: block !important;
+  height: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+  visibility: visible !important;
+}
+
+.navbar-toggle {
+  display: none;
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+.navbar-brand {
+  margin-left: -15px;
+}
+
+/* Always apply the floated nav */
+.navbar-nav {
+  float: left;
+  margin: 0;
+}
+
+.navbar-nav > li {
+  float: left;
+}
+
+.navbar-nav > li > a {
+  padding: 15px;
+}
+
+/* Redeclare since we override the float above */
+.navbar-nav.navbar-right {
+  float: right;
+}
+
+/* Undo custom dropdowns */
+.navbar .navbar-nav .open .dropdown-menu {
+  position: absolute;
+  float: left;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-width: 0 1px 1px;
+  border-radius: 0 0 4px 4px;
+  -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.175);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #333;
+}
+
+.navbar .navbar-nav .open .dropdown-menu > li > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > li > a:focus,
+.navbar .navbar-nav .open .dropdown-menu > .active > a,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #fff !important;
+  background-color: #428bca !important;
+}
+
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.navbar .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+  color: #999 !important;
+  background-color: transparent !important;
+}
+
+/* Undo form expansion */
+.navbar-form {
+  float: left;
+  width: auto;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin-right: 0;
+  margin-left: 0;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+/* Copy-pasted from forms.less since we mixin the .form-inline styles. */
+.navbar-form .form-group {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.navbar-form .form-control {
+  display: inline-block;
+  width: auto;
+  vertical-align: middle;
+}
+
+.navbar-form .form-control-static {
+  display: inline-block;
+}
+
+.navbar-form .input-group {
+  display: inline-table;
+  vertical-align: middle;
+}
+
+.navbar-form .input-group .input-group-addon,
+.navbar-form .input-group .input-group-btn,
+.navbar-form .input-group .form-control {
+  width: auto;
+}
+
+.navbar-form .input-group > .form-control {
+  width: 100%;
+}
+
+.navbar-form .control-label {
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.navbar-form .radio,
+.navbar-form .checkbox {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+.navbar-form .radio label,
+.navbar-form .checkbox label {
+  padding-left: 0;
+}
+
+.navbar-form .radio input[type="radio"],
+.navbar-form .checkbox input[type="checkbox"] {
+  position: relative;
+  margin-left: 0;
+}
+
+.navbar-form .has-feedback .form-control-feedback {
+  top: 0;
+}
+
 .container {
   width: 1170px !important;
   max-width: none !important;
@@ -4580,9 +4833,10 @@ h1,
 .our-cars #intro .navbar-container .navbar-nav li .btn-blue, .contact #intro .navbar-container .navbar-nav li .btn-blue, .terms #intro .navbar-container .navbar-nav li .btn-blue, .show-interest #intro .navbar-container .navbar-nav li .btn-blue {
   color: #fff;
   font-size: 22px;
+  padding: 20px 45px;
 }
 .our-cars #intro .navbar-container .navbar-nav li .slim, .contact #intro .navbar-container .navbar-nav li .slim, .terms #intro .navbar-container .navbar-nav li .slim, .show-interest #intro .navbar-container .navbar-nav li .slim {
-  padding: 5px 45px;
+  padding: 10px 45px;
 }
 .our-cars #intro .car-subtitle, .contact #intro .car-subtitle, .terms #intro .car-subtitle, .show-interest #intro .car-subtitle {
   margin-top: 100px;
@@ -4647,24 +4901,24 @@ h1,
   color: #fff;
 }
 
-.getting-married #intro, .driving-days #intro, .membership #intro {
+.getting-married #intro, .driving-days #intro, .club #intro, .membership #intro {
   background: url("../img/getting-married-header.jpg") 50% 0 no-repeat;
   height: 1136px;
 }
-.getting-married #intro .header h1, .driving-days #intro .header h1, .membership #intro .header h1, .getting-married .our-cars #intro .car-subtitle h1, .our-cars .getting-married #intro .car-subtitle h1, .driving-days .our-cars #intro .car-subtitle h1, .our-cars .driving-days #intro .car-subtitle h1, .membership .our-cars #intro .car-subtitle h1, .our-cars .membership #intro .car-subtitle h1, .getting-married .contact #intro .car-subtitle h1, .contact .getting-married #intro .car-subtitle h1, .driving-days .contact #intro .car-subtitle h1, .contact .driving-days #intro .car-subtitle h1, .membership .contact #intro .car-subtitle h1, .contact .membership #intro .car-subtitle h1, .getting-married .terms #intro .car-subtitle h1, .terms .getting-married #intro .car-subtitle h1, .driving-days .terms #intro .car-subtitle h1, .terms .driving-days #intro .car-subtitle h1, .membership .terms #intro .car-subtitle h1, .terms .membership #intro .car-subtitle h1, .getting-married .show-interest #intro .car-subtitle h1, .show-interest .getting-married #intro .car-subtitle h1, .driving-days .show-interest #intro .car-subtitle h1, .show-interest .driving-days #intro .car-subtitle h1, .membership .show-interest #intro .car-subtitle h1, .show-interest .membership #intro .car-subtitle h1, .membership #intro .points h1 {
+.getting-married #intro .header h1, .driving-days #intro .header h1, .club #intro .header h1, .membership #intro .header h1, .getting-married .our-cars #intro .car-subtitle h1, .our-cars .getting-married #intro .car-subtitle h1, .driving-days .our-cars #intro .car-subtitle h1, .our-cars .driving-days #intro .car-subtitle h1, .club .our-cars #intro .car-subtitle h1, .our-cars .club #intro .car-subtitle h1, .membership .our-cars #intro .car-subtitle h1, .our-cars .membership #intro .car-subtitle h1, .getting-married .contact #intro .car-subtitle h1, .contact .getting-married #intro .car-subtitle h1, .driving-days .contact #intro .car-subtitle h1, .contact .driving-days #intro .car-subtitle h1, .club .contact #intro .car-subtitle h1, .contact .club #intro .car-subtitle h1, .membership .contact #intro .car-subtitle h1, .contact .membership #intro .car-subtitle h1, .getting-married .terms #intro .car-subtitle h1, .terms .getting-married #intro .car-subtitle h1, .driving-days .terms #intro .car-subtitle h1, .terms .driving-days #intro .car-subtitle h1, .club .terms #intro .car-subtitle h1, .terms .club #intro .car-subtitle h1, .membership .terms #intro .car-subtitle h1, .terms .membership #intro .car-subtitle h1, .getting-married .show-interest #intro .car-subtitle h1, .show-interest .getting-married #intro .car-subtitle h1, .driving-days .show-interest #intro .car-subtitle h1, .show-interest .driving-days #intro .car-subtitle h1, .club .show-interest #intro .car-subtitle h1, .show-interest .club #intro .car-subtitle h1, .membership .show-interest #intro .car-subtitle h1, .show-interest .membership #intro .car-subtitle h1, .membership #intro .points h1 {
   font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.getting-married #intro .header h2, .driving-days #intro .header h2, .membership #intro .header h2, .getting-married .our-cars #intro .car-subtitle h2, .our-cars .getting-married #intro .car-subtitle h2, .driving-days .our-cars #intro .car-subtitle h2, .our-cars .driving-days #intro .car-subtitle h2, .membership .our-cars #intro .car-subtitle h2, .our-cars .membership #intro .car-subtitle h2, .getting-married .contact #intro .car-subtitle h2, .contact .getting-married #intro .car-subtitle h2, .driving-days .contact #intro .car-subtitle h2, .contact .driving-days #intro .car-subtitle h2, .membership .contact #intro .car-subtitle h2, .contact .membership #intro .car-subtitle h2, .getting-married .terms #intro .car-subtitle h2, .terms .getting-married #intro .car-subtitle h2, .driving-days .terms #intro .car-subtitle h2, .terms .driving-days #intro .car-subtitle h2, .membership .terms #intro .car-subtitle h2, .terms .membership #intro .car-subtitle h2, .getting-married .show-interest #intro .car-subtitle h2, .show-interest .getting-married #intro .car-subtitle h2, .driving-days .show-interest #intro .car-subtitle h2, .show-interest .driving-days #intro .car-subtitle h2, .membership .show-interest #intro .car-subtitle h2, .show-interest .membership #intro .car-subtitle h2, .membership #intro .points h2 {
+.getting-married #intro .header h2, .driving-days #intro .header h2, .club #intro .header h2, .membership #intro .header h2, .getting-married .our-cars #intro .car-subtitle h2, .our-cars .getting-married #intro .car-subtitle h2, .driving-days .our-cars #intro .car-subtitle h2, .our-cars .driving-days #intro .car-subtitle h2, .club .our-cars #intro .car-subtitle h2, .our-cars .club #intro .car-subtitle h2, .membership .our-cars #intro .car-subtitle h2, .our-cars .membership #intro .car-subtitle h2, .getting-married .contact #intro .car-subtitle h2, .contact .getting-married #intro .car-subtitle h2, .driving-days .contact #intro .car-subtitle h2, .contact .driving-days #intro .car-subtitle h2, .club .contact #intro .car-subtitle h2, .contact .club #intro .car-subtitle h2, .membership .contact #intro .car-subtitle h2, .contact .membership #intro .car-subtitle h2, .getting-married .terms #intro .car-subtitle h2, .terms .getting-married #intro .car-subtitle h2, .driving-days .terms #intro .car-subtitle h2, .terms .driving-days #intro .car-subtitle h2, .club .terms #intro .car-subtitle h2, .terms .club #intro .car-subtitle h2, .membership .terms #intro .car-subtitle h2, .terms .membership #intro .car-subtitle h2, .getting-married .show-interest #intro .car-subtitle h2, .show-interest .getting-married #intro .car-subtitle h2, .driving-days .show-interest #intro .car-subtitle h2, .show-interest .driving-days #intro .car-subtitle h2, .club .show-interest #intro .car-subtitle h2, .show-interest .club #intro .car-subtitle h2, .membership .show-interest #intro .car-subtitle h2, .show-interest .membership #intro .car-subtitle h2, .membership #intro .points h2 {
   font-family: OpenSans-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.getting-married #intro .header .btn-translucent, .driving-days #intro .header .btn-translucent, .membership #intro .header .btn-translucent, .getting-married .our-cars #intro .car-subtitle .btn-translucent, .our-cars .getting-married #intro .car-subtitle .btn-translucent, .driving-days .our-cars #intro .car-subtitle .btn-translucent, .our-cars .driving-days #intro .car-subtitle .btn-translucent, .membership .our-cars #intro .car-subtitle .btn-translucent, .our-cars .membership #intro .car-subtitle .btn-translucent, .getting-married .contact #intro .car-subtitle .btn-translucent, .contact .getting-married #intro .car-subtitle .btn-translucent, .driving-days .contact #intro .car-subtitle .btn-translucent, .contact .driving-days #intro .car-subtitle .btn-translucent, .membership .contact #intro .car-subtitle .btn-translucent, .contact .membership #intro .car-subtitle .btn-translucent, .getting-married .terms #intro .car-subtitle .btn-translucent, .terms .getting-married #intro .car-subtitle .btn-translucent, .driving-days .terms #intro .car-subtitle .btn-translucent, .terms .driving-days #intro .car-subtitle .btn-translucent, .membership .terms #intro .car-subtitle .btn-translucent, .terms .membership #intro .car-subtitle .btn-translucent, .getting-married .show-interest #intro .car-subtitle .btn-translucent, .show-interest .getting-married #intro .car-subtitle .btn-translucent, .driving-days .show-interest #intro .car-subtitle .btn-translucent, .show-interest .driving-days #intro .car-subtitle .btn-translucent, .membership .show-interest #intro .car-subtitle .btn-translucent, .show-interest .membership #intro .car-subtitle .btn-translucent, .membership #intro .points .btn-translucent {
+.getting-married #intro .header .btn-translucent, .driving-days #intro .header .btn-translucent, .club #intro .header .btn-translucent, .membership #intro .header .btn-translucent, .getting-married .our-cars #intro .car-subtitle .btn-translucent, .our-cars .getting-married #intro .car-subtitle .btn-translucent, .driving-days .our-cars #intro .car-subtitle .btn-translucent, .our-cars .driving-days #intro .car-subtitle .btn-translucent, .club .our-cars #intro .car-subtitle .btn-translucent, .our-cars .club #intro .car-subtitle .btn-translucent, .membership .our-cars #intro .car-subtitle .btn-translucent, .our-cars .membership #intro .car-subtitle .btn-translucent, .getting-married .contact #intro .car-subtitle .btn-translucent, .contact .getting-married #intro .car-subtitle .btn-translucent, .driving-days .contact #intro .car-subtitle .btn-translucent, .contact .driving-days #intro .car-subtitle .btn-translucent, .club .contact #intro .car-subtitle .btn-translucent, .contact .club #intro .car-subtitle .btn-translucent, .membership .contact #intro .car-subtitle .btn-translucent, .contact .membership #intro .car-subtitle .btn-translucent, .getting-married .terms #intro .car-subtitle .btn-translucent, .terms .getting-married #intro .car-subtitle .btn-translucent, .driving-days .terms #intro .car-subtitle .btn-translucent, .terms .driving-days #intro .car-subtitle .btn-translucent, .club .terms #intro .car-subtitle .btn-translucent, .terms .club #intro .car-subtitle .btn-translucent, .membership .terms #intro .car-subtitle .btn-translucent, .terms .membership #intro .car-subtitle .btn-translucent, .getting-married .show-interest #intro .car-subtitle .btn-translucent, .show-interest .getting-married #intro .car-subtitle .btn-translucent, .driving-days .show-interest #intro .car-subtitle .btn-translucent, .show-interest .driving-days #intro .car-subtitle .btn-translucent, .club .show-interest #intro .car-subtitle .btn-translucent, .show-interest .club #intro .car-subtitle .btn-translucent, .membership .show-interest #intro .car-subtitle .btn-translucent, .show-interest .membership #intro .car-subtitle .btn-translucent, .membership #intro .points .btn-translucent {
   color: #fff;
 }
-.getting-married #intro #moreInfo, .driving-days #intro #moreInfo, .membership #intro #moreInfo {
+.getting-married #intro #moreInfo, .driving-days #intro #moreInfo, .club #intro #moreInfo, .membership #intro #moreInfo {
   position: absolute;
   bottom: 105px;
 }
-.getting-married .parallax, .driving-days .parallax, .membership .parallax, .driving-days .driving-day-info {
+.getting-married .parallax, .driving-days .parallax, .club .parallax, .membership .parallax, .driving-days .driving-day-info {
   background-image: url("../img/getting-married-mid.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -4672,17 +4926,17 @@ h1,
   height: 630px;
   padding: 200px 0;
 }
-.getting-married .parallax .row, .driving-days .parallax .row, .membership .parallax .row, .driving-days .driving-day-info .row {
+.getting-married .parallax .row, .driving-days .parallax .row, .club .parallax .row, .membership .parallax .row, .driving-days .driving-day-info .row {
   margin-top: -160px;
 }
-.getting-married .parallax .row h4, .driving-days .parallax .row h4, .membership .parallax .row h4, .driving-days .driving-day-info .row h4 {
+.getting-married .parallax .row h4, .driving-days .parallax .row h4, .club .parallax .row h4, .membership .parallax .row h4, .driving-days .driving-day-info .row h4 {
   text-align: center;
   color: #000;
 }
-.getting-married .parallax .row .cars, .driving-days .parallax .row .cars, .membership .parallax .row .cars, .driving-days .driving-day-info .row .cars {
+.getting-married .parallax .row .cars, .driving-days .parallax .row .cars, .club .parallax .row .cars, .membership .parallax .row .cars, .driving-days .driving-day-info .row .cars {
   margin-top: 25px !important;
 }
-.getting-married .parallax .row .btn-blue, .driving-days .parallax .row .btn-blue, .membership .parallax .row .btn-blue, .driving-days .driving-day-info .row .btn-blue {
+.getting-married .parallax .row .btn-blue, .driving-days .parallax .row .btn-blue, .club .parallax .row .btn-blue, .membership .parallax .row .btn-blue, .driving-days .driving-day-info .row .btn-blue {
   font-family: OpenSans-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #fff;
   margin-top: 50px;
@@ -4708,7 +4962,7 @@ h1,
   background-attachment: fixed;
   background-position: 50% 0;
   height: 627px;
-  padding: 100px;
+  padding: 100px 0;
 }
 .driving-days .parallax .row, .driving-days .driving-day-info .row {
   margin-top: 20px;
@@ -4756,46 +5010,6 @@ h1,
 }
 .club #intro .btn-container .btn-blue {
   color: #fff;
-}
-.club #intro .header h1, .club .our-cars #intro .car-subtitle h1, .our-cars .club #intro .car-subtitle h1, .club .contact #intro .car-subtitle h1, .contact .club #intro .car-subtitle h1, .club .terms #intro .car-subtitle h1, .terms .club #intro .car-subtitle h1, .club .show-interest #intro .car-subtitle h1, .show-interest .club #intro .car-subtitle h1, .club .membership #intro .points h1, .membership .club #intro .points h1 {
-  font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.club #intro .header h2, .club .our-cars #intro .car-subtitle h2, .our-cars .club #intro .car-subtitle h2, .club .contact #intro .car-subtitle h2, .contact .club #intro .car-subtitle h2, .club .terms #intro .car-subtitle h2, .terms .club #intro .car-subtitle h2, .club .show-interest #intro .car-subtitle h2, .show-interest .club #intro .car-subtitle h2, .club .membership #intro .points h2, .membership .club #intro .points h2 {
-  font-family: OpenSans-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-.club #intro .header .btn-translucent, .club .our-cars #intro .car-subtitle .btn-translucent, .our-cars .club #intro .car-subtitle .btn-translucent, .club .contact #intro .car-subtitle .btn-translucent, .contact .club #intro .car-subtitle .btn-translucent, .club .terms #intro .car-subtitle .btn-translucent, .terms .club #intro .car-subtitle .btn-translucent, .club .show-interest #intro .car-subtitle .btn-translucent, .show-interest .club #intro .car-subtitle .btn-translucent, .club .membership #intro .points .btn-translucent, .membership .club #intro .points .btn-translucent {
-  color: #fff;
-}
-.club #intro #moreInfo {
-  position: absolute;
-  bottom: 105px;
-}
-.club .parallax, .club .driving-days .driving-day-info, .driving-days .club .driving-day-info {
-  background-image: url("../img/getting-married-mid.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 0;
-  height: 630px;
-  padding: 200px 0;
-}
-.club .parallax .row, .club .driving-days .driving-day-info .row, .driving-days .club .driving-day-info .row {
-  margin-top: -160px;
-}
-.club .parallax .row h4, .club .driving-days .driving-day-info .row h4, .driving-days .club .driving-day-info .row h4 {
-  text-align: center;
-  color: #000;
-}
-.club .parallax .row .cars, .club .driving-days .driving-day-info .row .cars, .driving-days .club .driving-day-info .row .cars {
-  margin-top: 25px !important;
-}
-.club .parallax .row .btn-blue, .club .driving-days .driving-day-info .row .btn-blue, .driving-days .club .driving-day-info .row .btn-blue {
-  font-family: OpenSans-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #fff;
-  margin-top: 50px;
-}
-
-.marriage-footer {
-  height: 450px !important;
 }
 
 .membership #intro {
@@ -4853,7 +5067,7 @@ h1,
 
 .contact #intro {
   background: url("../img/contact.jpg") 50% 0 no-repeat;
-  height: 995px;
+  height: auto;
 }
 .contact #intro h1,
 .contact #intro h2 {
@@ -4914,7 +5128,7 @@ h1,
 
 .terms #intro {
   background: url("../img/terms.jpg") 50% 0 no-repeat;
-  height: 5257px;
+  height: auto;
 }
 .terms #intro h1 {
   font-family: OpenSans-Light, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -4988,7 +5202,7 @@ h1,
 }
 
 .book-your-car #intro {
-  background: url("../img/book-your-car.jpg") 50% 0 no-repeat !important;
+  background: url("../img/book-your-car.jpg") 50% 0 no-repeat;
 }
 .book-your-car #intro h2 a {
   color: #fff;
@@ -4998,29 +5212,132 @@ h1,
   background: rgba(249, 249, 249, 0.16);
   color: #fff;
   border-radius: 25px;
+  padding: 25px;
+  margin-top: 90px;
+}
+.book-your-car #intro .availability-container .date-table .active-month {
+  position: absolute;
+  bottom: -1px;
+  left: 26px;
+  color: #19bcdf;
+}
+.book-your-car #intro .availability-container .date-table thead th {
+  width: 60px;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+}
+.book-your-car #intro .availability-container .date-table thead th a {
+  color: #fff;
+}
+.book-your-car #intro .availability-container .date-table thead th a:hover {
+  color: #fff;
+}
+.book-your-car #intro .availability-container .date-table thead th .form-control {
+  width: auto;
+  background: transparent;
+  color: #fff;
+  border: 0px;
+}
+.book-your-car #intro .availability-container .date-table tbody {
+  border-top: solid 2px #878787;
+  border-bottom: solid 2px #878787;
+}
+.book-your-car #intro .availability-container .date-table tbody td {
+  padding: 5px;
+}
+.book-your-car #intro .availability-container .date-table tbody td a {
+  color: #fff;
+}
+.book-your-car #intro .availability-container .date-table tbody td a:hover {
+  color: #fff;
+}
+.book-your-car #intro .availability-container .date-table tbody .left-arrow {
+  text-align: right;
+}
+.book-your-car #intro .availability-container .date-table tbody .week-commencing {
+  text-align: center;
+}
+.book-your-car #intro .availability-container .date-table tbody .right-arrow {
+  text-align: left;
+}
+.book-your-car #intro .availability-container .availability-table .active-day {
+  position: absolute;
+  bottom: -1px;
+  left: 44px;
+  color: #19bcdf;
+}
+.book-your-car #intro .availability-container .availability-table .no-border-right {
+  border-right: none;
 }
 .book-your-car #intro .availability-container .availability-table th {
   text-align: center;
+  height: 50px;
+  border-left: solid 1px #878787;
+  border-right: solid 1px #878787;
+  font-size: 13px;
+  position: relative;
+}
+.book-your-car #intro .availability-container .availability-table th.car {
+  font-size: 20px;
 }
 .book-your-car #intro .availability-container .availability-table td {
   padding: 10px;
+  vertical-align: middle;
+  border: solid 1px #878787;
+  width: 100px;
+  font-size: 12px;
 }
-.book-your-car #intro .availability-container .availability-table td .available {
+.book-your-car #intro .availability-container .availability-table td .available, .book-your-car #intro .availability-container .availability-table td .unavailable {
   display: block;
   width: 75%;
   height: 15px;
   margin: 0 auto;
-  background: green;
+  background: #3aaa35;
+}
+.book-your-car #intro .availability-container .availability-table td .unavailable {
+  background: #e30613;
 }
 .book-your-car #intro .availability-container .availability-table .car {
   background: transparent;
   text-align: left;
   padding: 0;
+  width: 180px;
+  border-left: none;
+}
+.book-your-car #intro .availability-container .row .key-container {
+  display: block;
+  margin: 20px auto 0 auto;
+  width: 140px;
+  font-size: 10px;
+  text-align: center;
+}
+.book-your-car #intro .availability-container .row .key-container .available-container {
+  width: 50%;
+  float: left;
+}
+.book-your-car #intro .availability-container .row .key-container .available-container .colour {
+  background: #3aaa35;
+  width: 63px;
+  height: 18px;
+  display: block;
+  margin: 5px auto 0 auto;
+}
+.book-your-car #intro .availability-container .row .key-container .unavailable-container {
+  width: 50%;
+  float: left;
+}
+.book-your-car #intro .availability-container .row .key-container .unavailable-container .colour {
+  background: #e30613;
+  width: 63px;
+  height: 18px;
+  display: block;
+  margin: 5px auto 0 auto;
 }
 
 .show-interest #intro {
   background: url("../img/contact.jpg") 50% 0 no-repeat;
-  height: 1338px;
+  height: auto;
 }
 .show-interest #intro h1,
 .show-interest #intro h4 {
@@ -5037,7 +5354,6 @@ h1,
 }
 .show-interest #intro .form-container .dropdown-container {
   display: block;
-  padding: 10px;
 }
 .show-interest #intro .form-container .col-xs-8, .show-interest .membership #intro .form-container .membership-block-container, .membership .show-interest #intro .form-container .membership-block-container,
 .show-interest #intro .form-container .col-xs-3,
