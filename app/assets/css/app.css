@@ -10646,6 +10646,9 @@ h1,
 .book-your-car #intro .availability-container .date-table tbody .right-arrow {
   text-align: left;
 }
+.book-your-car #intro .availability-container .availability-table .no-border-right {
+  border-right: none;
+}
 .book-your-car #intro .availability-container .availability-table th {
   text-align: center;
   height: 50px;

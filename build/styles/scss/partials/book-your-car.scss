@@ -75,6 +75,10 @@
 			}
 
 			.availability-table {
+
+				.no-border-right {
+					border-right: none;
+				}
 				th {
 					text-align: center;
 					height: 50px;
