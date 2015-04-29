@@ -7359,7 +7359,7 @@ button.close {
   font-weight: normal;
   font-style: normal;
 }
-.fa {
+.fa, .book-your-car #intro .availability-container .date-table .active-month, .book-your-car #intro .availability-container .availability-table .active-day {
   display: inline-block;
   font: normal normal normal 14px/1 FontAwesome;
   font-size: inherit;
@@ -7431,10 +7431,10 @@ button.close {
   float: left;
 }
 
-.fa.pull-left {
+.fa.pull-left, .book-your-car #intro .availability-container .date-table .pull-left.active-month, .book-your-car #intro .availability-container .availability-table .pull-left.active-day {
   margin-right: .3em;
 }
-.fa.pull-right {
+.fa.pull-right, .book-your-car #intro .availability-container .date-table .pull-right.active-month, .book-your-car #intro .availability-container .availability-table .pull-right.active-day {
   margin-left: .3em;
 }
 
@@ -7482,7 +7482,7 @@ button.close {
   transform: rotate(180deg);
 }
 
-.fa-rotate-270 {
+.fa-rotate-270, .book-your-car #intro .availability-container .date-table .active-month, .book-your-car #intro .availability-container .availability-table .active-day {
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
   -webkit-transform: rotate(270deg);
   -ms-transform: rotate(270deg);
@@ -7506,6 +7506,8 @@ button.close {
 :root .fa-rotate-90,
 :root .fa-rotate-180,
 :root .fa-rotate-270,
+:root .book-your-car #intro .availability-container .date-table .active-month,
+:root .book-your-car #intro .availability-container .availability-table .active-day,
 :root .fa-flip-horizontal,
 :root .fa-flip-vertical {
   filter: none;
@@ -7833,7 +7835,7 @@ button.close {
   content: "";
 }
 
-.fa-play:before {
+.fa-play:before, .book-your-car #intro .availability-container .date-table .active-month:before, .book-your-car #intro .availability-container .availability-table .active-day:before {
   content: "";
 }
 
@@ -10608,10 +10610,17 @@ h1,
   padding: 25px;
   margin-top: 90px;
 }
+.book-your-car #intro .availability-container .date-table .active-month {
+  position: absolute;
+  bottom: -1px;
+  left: 26px;
+  color: #19bcdf;
+}
 .book-your-car #intro .availability-container .date-table thead th {
   width: 60px;
   text-align: center;
   padding: 10px;
+  position: relative;
 }
 .book-your-car #intro .availability-container .date-table thead th a {
   color: #fff;
@@ -10647,6 +10656,12 @@ h1,
 .book-your-car #intro .availability-container .date-table tbody .right-arrow {
   text-align: left;
 }
+.book-your-car #intro .availability-container .availability-table .active-day {
+  position: absolute;
+  bottom: -1px;
+  left: 44px;
+  color: #19bcdf;
+}
 .book-your-car #intro .availability-container .availability-table .no-border-right {
   border-right: none;
 }
@@ -10656,6 +10671,7 @@ h1,
   border-left: solid 1px #878787;
   border-right: solid 1px #878787;
   font-size: 13px;
+  position: relative;
 }
 .book-your-car #intro .availability-container .availability-table th.car {
   font-size: 20px;

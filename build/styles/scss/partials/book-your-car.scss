@@ -20,11 +20,22 @@
 			margin-top: 90px;
 
 			.date-table {
+				.active-month {
+					@extend .fa;
+					@extend .fa-play;
+					@extend .fa-rotate-270;
+					position: absolute;
+					bottom: -1px;
+					left: 26px;
+					color: $pointer;
+				}
+
 				thead {
 					th {
 						width: 60px;
 						text-align: center;
 						padding: 10px;
+						position: relative;
 
 						a {
 							color: $white;
@@ -75,17 +86,28 @@
 			}
 
 			.availability-table {
+				.active-day {
+					@extend .fa;
+					@extend .fa-play;
+					@extend .fa-rotate-270;
+					position: absolute;
+					bottom: -1px;
+					left: 44px;
+					color: $pointer;
+				}
 
 				.no-border-right {
 					border-right: none;
 				}
-				
+
 				th {
 					text-align: center;
 					height: 50px;
 					border-left: solid 1px #878787;
 					border-right: solid 1px #878787;
 					font-size: 13px;
+					position: relative;
+
 
 					&.car {
 						font-size: 20px;
