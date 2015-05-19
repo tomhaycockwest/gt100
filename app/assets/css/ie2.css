@@ -1,27 +1,3 @@
-.pager li {
-  display: inline;
-}
-.pager li > a,
-.pager li > span {
-  display: inline-block;
-  padding: 5px 14px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-radius: 15px;
-}
-.pager li > a:hover,
-.pager li > a:focus {
-  text-decoration: none;
-  background-color: #eeeeee;
-}
-.pager .next > a,
-.pager .next > span {
-  float: right;
-}
-.pager .previous > a,
-.pager .previous > span {
-  float: left;
-}
 .pager .disabled > a,
 .pager .disabled > a:hover,
 .pager .disabled > a:focus,
@@ -1659,7 +1635,7 @@ button.close {
   clear: both;
 }
 
-.center-block, .membership #intro .membership-block-container, .points-calculator #intro .points-table-container, .book-your-car #intro .availability-container {
+.center-block, .membership #intro .membership-block-container, .points-calculator #intro .points-table-container, .pricing-matrix #intro .points-table-container, .book-your-car #intro .availability-container {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -5137,11 +5113,11 @@ h1,
   color: #fff;
 }
 
-.points-calculator #intro {
+.points-calculator #intro, .pricing-matrix #intro {
   background: url("../img/points-calculator.jpg") 50% 0 no-repeat;
   height: auto;
 }
-.points-calculator #intro .points-table-container {
+.points-calculator #intro .points-table-container, .pricing-matrix #intro .points-table-container {
   display: block;
   background: rgba(249, 249, 249, 0.16);
   color: #fff;
@@ -5149,55 +5125,57 @@ h1,
   padding: 20px;
   margin-top: 73px;
 }
-.points-calculator #intro .points-table-container .table-title {
+.points-calculator #intro .points-table-container .table-title, .pricing-matrix #intro .points-table-container .table-title {
   text-align: center;
 }
-.points-calculator #intro .points-table-container .total-container {
+.points-calculator #intro .points-table-container .total-container, .pricing-matrix #intro .points-table-container .total-container {
   display: block;
   width: 100%;
   height: 57px;
 }
-.points-calculator #intro .points-table-container .total-container h2 {
+.points-calculator #intro .points-table-container .total-container h2, .pricing-matrix #intro .points-table-container .total-container h2 {
   float: right;
 }
-.points-calculator #intro .points-table-container .total-container span {
+.points-calculator #intro .points-table-container .total-container span, .pricing-matrix #intro .points-table-container .total-container span {
   color: #a0d4ec;
 }
-.points-calculator #intro .points-table-container .table {
+.points-calculator #intro .points-table-container .table, .pricing-matrix #intro .points-table-container .table {
   text-align: center;
 }
-.points-calculator #intro .points-table-container .table .no-border-left {
+.points-calculator #intro .points-table-container .table .no-border-left, .pricing-matrix #intro .points-table-container .table .no-border-left {
   border-left: none;
 }
-.points-calculator #intro .points-table-container .table .no-border-right {
+.points-calculator #intro .points-table-container .table .no-border-right, .pricing-matrix #intro .points-table-container .table .no-border-right {
   border-right: none;
 }
-.points-calculator #intro .points-table-container .table th,
+.points-calculator #intro .points-table-container .table th, .pricing-matrix #intro .points-table-container .table th,
 .points-calculator #intro .points-table-container .table td,
-.points-calculator #intro .points-table-container .table input {
+.pricing-matrix #intro .points-table-container .table td,
+.points-calculator #intro .points-table-container .table input,
+.pricing-matrix #intro .points-table-container .table input {
   text-align: center;
   white-space: nowrap;
 }
-.points-calculator #intro .points-table-container .table th {
+.points-calculator #intro .points-table-container .table th, .pricing-matrix #intro .points-table-container .table th {
   border-right: solid 1px #878787;
   border-left: solid 1px #878787;
   border-bottom: solid 1px #878787;
 }
-.points-calculator #intro .points-table-container .table td {
+.points-calculator #intro .points-table-container .table td, .pricing-matrix #intro .points-table-container .table td {
   border: 1px solid #878787;
 }
-.points-calculator #intro .points-table-container .table input {
+.points-calculator #intro .points-table-container .table input, .pricing-matrix #intro .points-table-container .table input {
   background: transparent;
   border: none;
   color: #fff;
 }
-.points-calculator #intro .points-table-container .table input:focus {
+.points-calculator #intro .points-table-container .table input:focus, .pricing-matrix #intro .points-table-container .table input:focus {
   outline: none;
 }
-.points-calculator #intro .points-table-container .btn-container {
+.points-calculator #intro .points-table-container .btn-container, .pricing-matrix #intro .points-table-container .btn-container {
   width: 171px;
 }
-.points-calculator #intro .points-table-container .btn-container .btn-blue {
+.points-calculator #intro .points-table-container .btn-container .btn-blue, .pricing-matrix #intro .points-table-container .btn-container .btn-blue {
   color: #fff;
 }
 
@@ -5391,4 +5369,55 @@ h1,
 }
 .show-interest #intro .form-container .btn-container .btn-blue {
   color: #fff;
+}
+
+.pricing-matrix #intro {
+  background: url("../img/pricing-matrix.png") 50% 0 no-repeat;
+}
+.pricing-matrix #intro .header h1, .pricing-matrix .our-cars #intro .car-subtitle h1, .our-cars .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .contact #intro .car-subtitle h1, .contact .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .terms #intro .car-subtitle h1, .terms .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .show-interest #intro .car-subtitle h1, .show-interest .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .membership #intro .points h1, .membership .pricing-matrix #intro .points h1 {
+  font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.pricing-matrix #intro .points-table-container {
+  width: 1077px;
+  padding: 15px 55px 30px 55px;
+}
+.pricing-matrix #intro .points-table-container .table {
+  text-align: center;
+}
+.pricing-matrix #intro .points-table-container .table .no-border-left {
+  text-align: left;
+}
+.pricing-matrix #intro .points-table-container .table .no-border {
+  border-left: 0;
+  border-right: 0;
+}
+.pricing-matrix #intro .points-table-container .table .points-cost {
+  color: #9cd4ed;
+}
+.pricing-matrix #intro .points-table-container .table .car-col {
+  width: 320px;
+}
+.pricing-matrix #intro .points-table-container .table th {
+  font-size: 20px;
+  font-weight: normal;
+  border-right: solid 1px #a9a7a9;
+  border-left: solid 1px #a9a7a9;
+  border-bottom: solid 1px #a9a7a9;
+}
+.pricing-matrix #intro .points-table-container .table th .weekend-premium {
+  color: #9cd4ed;
+  font-size: 13px;
+}
+.pricing-matrix #intro .points-table-container .table th.tier {
+  vertical-align: middle;
+}
+.pricing-matrix #intro .points-table-container .table td {
+  font-size: 20px;
+  font-weight: normal;
+  border-right: solid 1px #a9a7a9;
+  border-left: solid 1px #a9a7a9;
+  border-bottom: solid 1px #a9a7a9;
+}
+.pricing-matrix #intro .points-table-container .table .bottom {
+  border-bottom: 0;
 }
