@@ -5,6 +5,7 @@
 
 		.points-table-container {
 			width: 1077px;
+			padding: 15px 55px 30px 55px;
 
 			.table {
 				text-align: center;
@@ -12,7 +13,20 @@
 				.no-border-left {
 					text-align: left;
 				}
-				
+
+				.no-border {
+					border-left: 0;
+					border-right: 0;
+				}
+
+				.points-cost {
+					color: #9cd4ed;
+				}
+
+				.car-col {
+					width: 320px;
+				}
+
 				th {
 					font-size: 20px;
 					font-weight: normal;
@@ -21,7 +35,22 @@
 						color: #9cd4ed;
 						font-size: 13px;
 					}
+
+					&.tier {
+						vertical-align: middle;
+					}
+
 				}
+
+				td {
+					font-size: 20px;
+					font-weight: normal;
+				}
+
+				.bottom {
+					border-bottom: 0;
+				}
+
 
 
 			}
