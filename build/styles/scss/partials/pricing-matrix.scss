@@ -1,0 +1,35 @@
+.pricing-matrix {
+	@extend .points-calculator;
+
+	#intro {
+
+		.points-table-container {
+			width: 1077px;
+
+			.table {
+				text-align: center;
+
+				.no-border-left {
+					text-align: left;
+				}
+				
+				th {
+					font-size: 20px;
+					font-weight: normal;
+
+					.weekend-premium {
+						color: #9cd4ed;
+						font-size: 13px;
+					}
+				}
+
+
+			}
+
+			
+
+		}
+
+	}
+
+}
