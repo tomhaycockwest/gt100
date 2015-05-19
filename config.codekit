@@ -324,6 +324,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/assets\/img\/pricing-matrix.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/pricing-matrix.png",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/pricing-matrix.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/assets\/img\/terms.jpg": {
 		"fileType": 16384,
 		"ignore": 0,

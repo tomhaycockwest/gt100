@@ -10792,6 +10792,12 @@ h1,
   color: #fff;
 }
 
+.pricing-matrix #intro {
+  background: url("../img/pricing-matrix.png") 50% 0 no-repeat;
+}
+.pricing-matrix #intro .header h1, .pricing-matrix .our-cars #intro .car-subtitle h1, .our-cars .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .contact #intro .car-subtitle h1, .contact .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .terms #intro .car-subtitle h1, .terms .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .show-interest #intro .car-subtitle h1, .show-interest .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .membership #intro .points h1, .membership .pricing-matrix #intro .points h1 {
+  font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
 .pricing-matrix #intro .points-table-container {
   width: 1077px;
   padding: 15px 55px 30px 55px;
@@ -10815,6 +10821,9 @@ h1,
 .pricing-matrix #intro .points-table-container .table th {
   font-size: 20px;
   font-weight: normal;
+  border-right: solid 1px #a9a7a9;
+  border-left: solid 1px #a9a7a9;
+  border-bottom: solid 1px #a9a7a9;
 }
 .pricing-matrix #intro .points-table-container .table th .weekend-premium {
   color: #9cd4ed;
@@ -10826,6 +10835,9 @@ h1,
 .pricing-matrix #intro .points-table-container .table td {
   font-size: 20px;
   font-weight: normal;
+  border-right: solid 1px #a9a7a9;
+  border-left: solid 1px #a9a7a9;
+  border-bottom: solid 1px #a9a7a9;
 }
 .pricing-matrix #intro .points-table-container .table .bottom {
   border-bottom: 0;
