@@ -10037,11 +10037,82 @@ h1,
 }
 
 #intro {
-  background: url("../img/home-car.jpg") 50% 0 no-repeat;
+  background: url("../img/home.jpg") 50% 0 no-repeat;
   height: 1065px;
   margin: -70px auto 0 auto;
   width: 100%;
   position: relative;
+}
+#intro h1 {
+  font-size: 30px;
+}
+#intro .left-block {
+  float: left;
+  font-size: 19px;
+  width: 670px;
+  color: #fff;
+  margin-top: 50px;
+}
+#intro .left-block p {
+  float: left;
+  width: 470px;
+  margin-left: 43px;
+}
+#intro .left-block .icon {
+  background-image: url("../img/logo-circle.png");
+  width: 116px;
+  height: 111px;
+  float: left;
+  margin-left: 40px;
+}
+#intro .left-block .btn-container {
+  float: right;
+  margin-right: 155px;
+}
+#intro .left-block .btn-container .btn, #intro .left-block .btn-container .btn-translucent, #intro .left-block .btn-container .btn-blue {
+  border-radius: 25px;
+  color: #000;
+  background: #83d0f5;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#intro .right-block {
+  float: right;
+  font-size: 19px;
+  width: 720px;
+  color: #fff;
+  margin-top: 50px;
+}
+#intro .right-block p {
+  float: right;
+  text-align: right;
+  width: 520px;
+  margin-right: 43px;
+}
+#intro .right-block p.last-paragraph {
+  margin-right: 200px;
+}
+#intro .right-block .icon {
+  background-image: url("../img/graph-circle.png");
+  width: 116px;
+  height: 111px;
+  float: right;
+  margin-right: 40px;
+}
+#intro .right-block .btn-container {
+  float: left;
+  margin-left: 155px;
+}
+#intro .right-block .btn-container .btn, #intro .right-block .btn-container .btn-translucent, #intro .right-block .btn-container .btn-blue {
+  border-radius: 25px;
+  color: #000;
+  background: #83d0f5;
+  font-size: 20px;
+  color: #fff;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .header-home {
@@ -10052,28 +10123,6 @@ h1,
   text-align: center;
   color: #fff;
   margin-top: 180px;
-}
-
-.parallax, .driving-days .driving-day-info {
-  background-image: url("../img/home-mid.jpg");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: 50% 0;
-  height: 450px;
-  margin: 0 auto;
-  width: 100%;
-  position: relative;
-  padding: 150px 0;
-}
-.parallax h1, .driving-days .driving-day-info h1 {
-  text-align: center;
-  color: #fff;
-}
-.parallax p, .driving-days .driving-day-info p {
-  text-align: center;
-}
-.parallax p .btn-translucent, .driving-days .driving-day-info p .btn-translucent {
-  font-size: 30px;
 }
 
 #ourCars {

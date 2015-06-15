@@ -198,11 +198,94 @@ h1,
 }
 
 #intro { 
-	background: url("#{$img-url}/home-car.jpg") 50% 0 no-repeat; 
+	background: url("#{$img-url}/home.jpg") 50% 0 no-repeat; 
 	height: 1065px;  
 	margin: -70px auto 0 auto; 
     width: 100%; 
     position: relative; 
+
+    h1 {
+      font-size: 30px;
+    }
+
+    .left-block {
+      float: left;
+      font-size: 19px;
+      width: 670px;
+      color: $white;
+      margin-top: 50px;
+
+      p {
+      	float: left;
+      	width: 470px;
+      	margin-left: 43px;
+      }
+
+      .icon {
+      	background-image: url("#{$img-url}/logo-circle.png");
+      	width: 116px;
+      	height: 111px;
+      	float: left;
+      	margin-left: 40px;
+      }
+
+      .btn-container {
+      	float: right;
+      	margin-right: 155px;
+
+			.btn {
+				border-radius: 25px;
+				color: $black;
+				background: $btnblue;
+				font-size: 20px;
+				color: $white;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+    }
+
+    .right-block {
+      float: right;
+      font-size: 19px;
+      width: 720px;
+      color: $white;
+      margin-top: 50px;
+
+      p {
+      	float: right;
+      	text-align: right;
+      	width: 520px;
+      	margin-right: 43px;
+
+      	&.last-paragraph {
+      		margin-right: 200px;
+      	}
+      }
+
+	    .icon {
+	    	background-image: url("#{$img-url}/graph-circle.png");
+	    	width: 116px;
+	    	height: 111px;
+	    	float: right;
+	    	margin-right: 40px;
+	    }
+
+	    .btn-container {
+	    	float: left;
+	    	margin-left: 155px;
+
+			.btn {
+				border-radius: 25px;
+				color: $black;
+				background: $btnblue;
+				font-size: 20px;
+				color: $white;
+				padding-left: 30px;
+				padding-right: 30px;
+			}
+		}
+    }
 }
 
 .header-home {
@@ -213,31 +296,6 @@ h1,
 	text-align: center;
 	color: $white;
 	margin-top: 180px;
-}
-
-.parallax { 
-    background-image: url("#{$img-url}/home-mid.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: 50% 0; 
-	height: 450px;  
-	margin: 0 auto; 
-    width: 100%; 
-    position: relative; 
-    padding: 150px 0;
-
-    h1 {
-    	text-align: center;
-    	color: $white;
-    }
-
-    p {
-    	text-align: center;
-
-    	.btn-translucent {
-    		font-size: 30px;
-    	}
-    }
 }
 
 #ourCars { 
