@@ -10114,6 +10114,15 @@ h1,
   padding-left: 30px;
   padding-right: 30px;
 }
+#intro .center-text {
+  text-align: center;
+  clear: both;
+  color: #fff;
+  font-size: 19px;
+  width: 500px;
+  margin: 0 auto;
+  padding-top: 75px;
+}
 
 .header-home {
   margin-top: 124px !important;
