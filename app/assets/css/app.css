@@ -10289,6 +10289,7 @@ h1,
   padding-left: 0;
   padding-right: 0;
   margin-left: 15px;
+  text-align: center;
 }
 .navbar .navbar-header ul li a:hover {
   background-color: transparent;
