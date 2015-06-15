@@ -28,6 +28,14 @@
 						background-color: transparent;
 						border-bottom: solid 1px $navhover;
 					}
+
+					&.driving-days {
+						height: 82px;
+					}
+
+					&.double-line {
+						height: 58px;
+					}
 				}
 			}
 
