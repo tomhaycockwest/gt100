@@ -56,10 +56,10 @@ function removeParallax() {
     document.getElementsByTagName("head")[0].appendChild(msViewportStyle); 
 })(); 
 
-function fullHeight() {
-	var windowHeight = $( window ).height();
-	$('.intro-home').css({height:windowHeight+'px'});
-}
+// function fullHeight() {
+// 	var windowHeight = $( window ).height();
+// 	$('.intro-home').css({height:windowHeight+'px'});
+// }
 
 function detectmob() { 
 	if( navigator.userAgent.match(/Android/i)
