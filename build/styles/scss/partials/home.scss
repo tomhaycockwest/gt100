@@ -199,7 +199,7 @@ h1,
 
 #intro { 
 	background: url("#{$img-url}/home.jpg") 50% 0 no-repeat; 
-	height: 1200px;  
+	// height: 1200px;  
 	margin: -70px auto 0 auto; 
     width: 100%; 
     position: relative; 
@@ -295,6 +295,37 @@ h1,
     	width: 500px;
     	margin: 0 auto;
     	padding-top: 75px;
+    }
+
+    .car-table-container {
+    	width: 575px;
+    	margin: 0 auto;
+
+    	table {
+    		tr {
+    			td {
+    				.car-image {
+    					img {
+    						width: 192px;
+    						height: 126px;
+    					}
+    				}
+
+    				.car-title {
+    					font-size: 16px;
+    					color: $white;
+    					padding-left: 9px;
+    					@include font-bold;
+    				}
+
+    				.car-subtitle {
+    					font-size: 12px;
+    					color: $white;
+    					padding-left: 7px;
+    				}
+    			}
+    		}
+    	}
     }
 }
 
