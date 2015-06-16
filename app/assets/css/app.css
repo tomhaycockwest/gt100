@@ -10779,6 +10779,7 @@ h1,
 
 .book-your-car #intro {
   background: url("../img/book-your-car.jpg") 50% 0 no-repeat;
+  height: 578px;
 }
 .book-your-car #intro h2 a {
   color: #fff;
