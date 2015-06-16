@@ -5,6 +5,8 @@
 		height: 1136px;
 
 		.header {
+			margin-top: 270px;
+
 			h1 {
 				@include font-regular;
 			}
@@ -13,10 +15,25 @@
 				@include font-light;
 			}
 
-			.btn-translucent {
-				@extend .h2;
-				color: $white;
+			.btn-container {
+				float: left;
+				margin-left: 180px;
+				.btn-blue {
+					@extend .h2;
+					color: $white;
+					text-align: left;
+					font-size: 20px;
+				}
 			}
+
+			
+		}
+
+		.lead {
+			text-align: left;
+			font-size: 19px;
+			width: 505px;
+			margin-left: 45px;
 		}
 
 		#moreInfo {
@@ -45,11 +62,23 @@
 				margin-top: 25px !important;
 			}
 
+			h2 {
+				margin: 0 auto;
+				width: 169px;
+				
+
+				&.contact {
+					width: 188px;
+				}
+			}
+
 			.btn-blue {
 				@extend .h2;
 				@include font-light;
 				color: $white;
 				margin-top: 50px;
+				font-size: 20px;
+
 			}
 		}
 	}
@@ -58,4 +87,17 @@
 
 .marriage-footer {
 	height: 450px !important;
+	margin: 75px auto 0 auto; 
+    width: 100%; 
+    position: relative; 
+    padding: 30px 0 4px 0;
+    color: #fff;
+
+
+    p {
+    	font-size: 19px;
+    	text-align: center;
+    	width: 745px;
+    	margin: 25px auto;
+    }
 }
