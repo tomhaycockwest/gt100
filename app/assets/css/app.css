@@ -10368,6 +10368,11 @@ h1,
 .our-cars #intro .navbar-container .navbar-nav li .slim, .contact #intro .navbar-container .navbar-nav li .slim, .terms #intro .navbar-container .navbar-nav li .slim, .show-interest #intro .navbar-container .navbar-nav li .slim {
   padding: 10px 45px;
 }
+.our-cars #intro .lead, .contact #intro .lead, .terms #intro .lead, .show-interest #intro .lead {
+  font-size: 19px;
+  width: 510px;
+  margin: 0 auto;
+}
 .our-cars #intro .car-subtitle, .contact #intro .car-subtitle, .terms #intro .car-subtitle, .show-interest #intro .car-subtitle {
   margin-top: 100px;
 }

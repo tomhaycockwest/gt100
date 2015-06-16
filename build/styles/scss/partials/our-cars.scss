@@ -25,6 +25,12 @@
 			}	
 		}
 
+		.lead {
+			font-size: 19px;
+			width: 510px;
+			margin: 0 auto;
+		}
+
 		.car-subtitle {
 			@extend .header;
 			margin-top: 100px;
