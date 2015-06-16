@@ -28,10 +28,10 @@
 			}
 
 			.btn-container {
-				width: 192px;
+				width: 128px;
 
 				.btn-blue {
-					font-size: 30px;
+					font-size: 20px;
 					color: $white;
 				}
 			}
@@ -39,6 +39,7 @@
 			h2 {
 				text-align: center;
 				color: $white;
+				font-size: 19px;
 			}
 
 			.table-container {
@@ -74,4 +75,7 @@
 			}
 		}
 	}
+}
+.footer-contact {
+	height: 539px !important;
 }
