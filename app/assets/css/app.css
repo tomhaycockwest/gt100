@@ -10963,11 +10963,12 @@ h1,
   color: #fff;
 }
 .show-interest #intro .form-container .btn-container {
-  width: 192px;
+  width: 128px;
   float: right;
 }
 .show-interest #intro .form-container .btn-container .btn-blue {
   color: #fff;
+  font-size: 20px;
 }
 
 .pricing-matrix #intro {
