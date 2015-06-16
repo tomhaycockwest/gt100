@@ -8,6 +8,10 @@
 			h1 {
 				@include font-regular;
 			}
+
+			h2 {
+				font-size: 19px;
+			}
 		}
 
 		.points-table-container {

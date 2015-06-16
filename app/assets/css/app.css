@@ -10979,6 +10979,9 @@ h1,
 .pricing-matrix #intro .header h1, .pricing-matrix .our-cars #intro .car-subtitle h1, .our-cars .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .contact #intro .car-subtitle h1, .contact .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .terms #intro .car-subtitle h1, .terms .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .show-interest #intro .car-subtitle h1, .show-interest .pricing-matrix #intro .car-subtitle h1, .pricing-matrix .membership #intro .points h1, .membership .pricing-matrix #intro .points h1 {
   font-family: OpenSans-Regular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.pricing-matrix #intro .header h2, .pricing-matrix .our-cars #intro .car-subtitle h2, .our-cars .pricing-matrix #intro .car-subtitle h2, .pricing-matrix .contact #intro .car-subtitle h2, .contact .pricing-matrix #intro .car-subtitle h2, .pricing-matrix .terms #intro .car-subtitle h2, .terms .pricing-matrix #intro .car-subtitle h2, .pricing-matrix .show-interest #intro .car-subtitle h2, .show-interest .pricing-matrix #intro .car-subtitle h2, .pricing-matrix .membership #intro .points h2, .membership .pricing-matrix #intro .points h2 {
+  font-size: 19px;
+}
 .pricing-matrix #intro .points-table-container {
   width: 1077px;
   padding: 15px 55px 30px 55px;
