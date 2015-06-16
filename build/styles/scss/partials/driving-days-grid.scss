@@ -1,0 +1,44 @@
+.driving-days-grid {
+	@extend .points-calculator;
+
+	#intro {
+		background: url("#{$img-url}/driving-days-grid.jpg") 50% 0 no-repeat;
+
+		.lead {
+			font-size: 19px;
+			width: 575px;
+			margin: 0 auto;
+		}
+
+		.points-table-container {
+			table {
+				thead {
+					tr {
+						th {
+							text-align: left !important;
+							font-size: 24px;
+							color: #9dd8f3;
+							padding: 10px;
+						}
+					}
+				}
+				tbody {
+					tr {
+						td {
+							text-align: left !important;
+							font-size: 20px;
+							padding: 10px;
+						}
+					}
+				}
+			}
+		}
+	}
+
+}
+
+.driving-days-footer {
+	.btn-container {
+		width: 180px !important;
+	}
+}
