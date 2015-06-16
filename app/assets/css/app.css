@@ -4104,7 +4104,7 @@ tbody.collapse.in {
   list-style: none;
   font-size: 14px;
   text-align: left;
-  background-color: #fff;
+  background-color: black;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
@@ -4134,15 +4134,11 @@ tbody.collapse.in {
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #262626;
-  background-color: #f5f5f5;
 }
 
 .dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active > a:focus {
-  color: #fff;
   text-decoration: none;
   outline: 0;
-  background-color: #337ab7;
 }
 
 .dropdown-menu > .disabled > a, .dropdown-menu > .disabled > a:hover, .dropdown-menu > .disabled > a:focus {
@@ -4610,7 +4606,7 @@ tbody.collapse.in {
 }
 .nav > li > a:hover, .nav > li > a:focus {
   text-decoration: none;
-  background-color: #eeeeee;
+  background-color: transparent;
 }
 .nav > li.disabled > a {
   color: #777777;
@@ -4622,7 +4618,7 @@ tbody.collapse.in {
   cursor: not-allowed;
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
-  background-color: #eeeeee;
+  background-color: transparent;
   border-color: #337ab7;
 }
 .nav .nav-divider {
@@ -9896,7 +9892,6 @@ ul {
 .navbar .navbar-nav .open .dropdown-menu {
   position: absolute;
   float: left;
-  background-color: #fff;
   border: 1px solid #ccc;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-width: 0 1px 1px;
@@ -9915,7 +9910,6 @@ ul {
 .navbar .navbar-nav .open .dropdown-menu > .active > a:hover,
 .navbar .navbar-nav .open .dropdown-menu > .active > a:focus {
   color: #fff !important;
-  background-color: #428bca !important;
 }
 
 .navbar .navbar-nav .open .dropdown-menu > .disabled > a,
@@ -10332,16 +10326,19 @@ h1,
   margin-top: 0;
 }
 
-.dropdown-menu {
+.dropdown-menu,
+.dropdown-menu:active {
   background-color: black;
   color: white;
   min-width: 64px;
   left: 13px;
 }
-.dropdown-menu li:nth-child(2) {
+.dropdown-menu li:nth-child(2),
+.dropdown-menu:active li:nth-child(2) {
   margin-left: 0 !important;
 }
-.dropdown-menu li a {
+.dropdown-menu li a,
+.dropdown-menu:active li a {
   color: white;
   margin-left: 0 !important;
   padding: 3px 0;
@@ -10354,7 +10351,7 @@ h1,
 .our-cars #intro .navbar-container, .contact #intro .navbar-container, .terms #intro .navbar-container, .show-interest #intro .navbar-container {
   display: block;
   margin: 0 auto;
-  width: 88%;
+  width: 926px;
   margin-top: 60px;
 }
 .our-cars #intro .navbar-container .navbar-nav li, .contact #intro .navbar-container .navbar-nav li, .terms #intro .navbar-container .navbar-nav li, .show-interest #intro .navbar-container .navbar-nav li {
@@ -10362,7 +10359,7 @@ h1,
 }
 .our-cars #intro .navbar-container .navbar-nav li .btn-blue, .contact #intro .navbar-container .navbar-nav li .btn-blue, .terms #intro .navbar-container .navbar-nav li .btn-blue, .show-interest #intro .navbar-container .navbar-nav li .btn-blue {
   color: #fff;
-  font-size: 22px;
+  font-size: 19px;
   padding: 20px 45px;
 }
 .our-cars #intro .navbar-container .navbar-nav li .slim, .contact #intro .navbar-container .navbar-nav li .slim, .terms #intro .navbar-container .navbar-nav li .slim, .show-interest #intro .navbar-container .navbar-nav li .slim {

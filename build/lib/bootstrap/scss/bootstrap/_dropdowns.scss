@@ -40,7 +40,7 @@
   list-style: none;
   font-size: $font-size-base;
   text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
-  background-color: $dropdown-bg;
+  background-color: black;
   border: 1px solid $dropdown-fallback-border; // IE8 fallback
   border: 1px solid $dropdown-border;
   border-radius: $border-radius-base;
@@ -77,8 +77,8 @@
   &:hover,
   &:focus {
     text-decoration: none;
-    color: $dropdown-link-hover-color;
-    background-color: $dropdown-link-hover-bg;
+    // color: $dropdown-link-hover-color;
+    // background-color: $dropdown-link-hover-bg;
   }
 }
 
@@ -87,10 +87,10 @@
   &,
   &:hover,
   &:focus {
-    color: $dropdown-link-active-color;
+    // color: $dropdown-link-active-color;
     text-decoration: none;
     outline: 0;
-    background-color: $dropdown-link-active-bg;
+    // background-color: $dropdown-link-active-bg;
   }
 }
 

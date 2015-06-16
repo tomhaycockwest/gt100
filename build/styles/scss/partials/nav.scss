@@ -78,7 +78,8 @@
     margin-top: 0;
  }
 
- .dropdown-menu {
+ .dropdown-menu,
+ .dropdown-menu:active {
  	background-color: black;
  	color: white;
  	min-width: 64px;
