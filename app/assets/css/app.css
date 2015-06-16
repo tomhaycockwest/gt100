@@ -10281,6 +10281,14 @@ h1,
 .navbar .navbar-header ul li:nth-child(2) {
   margin-left: 59px;
 }
+.navbar .navbar-header ul li.dropdown-link {
+  margin-top: 15px;
+  background: transparent;
+  min-width: 0;
+}
+.navbar .navbar-header ul li.dropdown-link a {
+  height: 36px;
+}
 .navbar .navbar-header ul li a {
   color: #fff;
   text-transform: uppercase;
@@ -10290,6 +10298,7 @@ h1,
   padding-right: 0;
   margin-left: 15px;
   text-align: center;
+  cursor: pointer;
 }
 .navbar .navbar-header ul li a:hover {
   background-color: transparent;
@@ -10316,6 +10325,26 @@ h1,
 }
 .navbar-brand:hover {
   border-bottom: none !important;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.dropdown-menu {
+  background-color: black;
+  color: white;
+  min-width: 64px;
+  left: 13px;
+}
+.dropdown-menu li:nth-child(2) {
+  margin-left: 0 !important;
+}
+.dropdown-menu li a {
+  color: white;
+  margin-left: 0 !important;
+  padding: 3px 0;
 }
 
 .our-cars #intro, .contact #intro, .terms #intro, .show-interest #intro {

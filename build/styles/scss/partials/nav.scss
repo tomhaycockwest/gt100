@@ -13,6 +13,16 @@
 				&:nth-child(2) {
 					margin-left: 59px;
 				}
+
+				&.dropdown-link {
+					margin-top: 15px;
+					background: transparent;
+					min-width: 0;
+
+					a {
+						height: 36px;
+					}
+				}
 				
 				a {
 					color: $white;
@@ -23,6 +33,7 @@
 					padding-right: 0;
 					margin-left: 15px;
 					text-align: center;
+					cursor: pointer;
 
 					&:hover {
 						background-color: transparent;
@@ -61,3 +72,29 @@
 	}
 	
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
+
+ .dropdown-menu {
+ 	background-color: black;
+ 	color: white;
+ 	min-width: 64px;
+ 	left: 13px;
+
+ 	li {
+
+ 		&:nth-child(2) {
+ 			margin-left: 0 !important;
+ 		}
+
+ 		a {
+ 			color: white;
+ 			margin-left: 0 !important;
+ 			padding: 3px 0;
+
+ 		}
+ 	}
+ }
