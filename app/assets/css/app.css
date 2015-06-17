@@ -10635,6 +10635,9 @@ h1,
 .club #intro .left-block {
   margin-top: 25px;
 }
+.club #intro .left-block p {
+  width: 470px;
+}
 .club #intro .right-block p {
   margin-top: 10px;
 }
