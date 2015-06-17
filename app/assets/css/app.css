@@ -10011,7 +10011,7 @@ h1,
 }
 #intro .left-block {
   font-size: 19px;
-  width: 670px;
+  width: 770px;
   color: #fff;
   margin: 0 auto;
 }
@@ -10019,6 +10019,7 @@ h1,
   float: left;
   width: 800px;
   margin-bottom: 30px;
+  margin-top: 10px;
 }
 #intro .left-block .icon {
   background-image: url("../img/logo-circle.png");
@@ -10029,6 +10030,10 @@ h1,
 }
 #intro .left-block .btn-container {
   margin: 0 auto;
+  width: 199px;
+}
+#intro .left-block .btn-container.memberships {
+  width: 252px;
 }
 #intro .left-block .btn-container .btn, #intro .left-block .btn-container .btn-translucent, #intro .left-block .btn-container .btn-blue {
   border-radius: 25px;
@@ -10077,21 +10082,20 @@ h1,
 }
 #intro .center-text {
   text-align: left;
-  clear: both;
   color: #fff;
   font-size: 19px;
   margin: 0 auto;
   padding: 30px 0 30px 0;
   float: left;
-  margin-left: 238px;
+  margin-left: 185px;
 }
 #intro .car-table-container {
-  width: 750px;
-  margin: 40px auto 35px auto;
+  width: 780px;
+  margin: 10px auto 35px auto;
 }
 #intro .car-table-container table tr td .car-image img {
-  width: 250px;
-  height: 164px;
+  width: 260px;
+  height: 170px;
 }
 #intro .car-table-container table tr td .car-title {
   font-size: 16px;
@@ -10120,6 +10124,7 @@ h1,
 
 .header-home {
   margin-top: 94px !important;
+  padding-top: 15px;
 }
 
 .header, .our-cars #intro .car-subtitle, .contact #intro .car-subtitle, .terms #intro .car-subtitle, .show-interest #intro .car-subtitle, .membership #intro .points {
@@ -10315,7 +10320,7 @@ h1,
 
 .our-cars #intro, .contact #intro, .terms #intro, .show-interest #intro {
   background: url("../img/our-cars-header.jpg") 50% 0 no-repeat;
-  height: 480px;
+  height: 440px;
 }
 .our-cars #intro .header, .contact #intro .header, .terms #intro .header, .show-interest #intro .header, .our-cars #intro .car-subtitle, .contact #intro .car-subtitle, .terms #intro .car-subtitle, .show-interest #intro .car-subtitle, .our-cars .membership #intro .points, .membership .our-cars #intro .points, .contact .membership #intro .points, .membership .contact #intro .points, .terms .membership #intro .points, .membership .terms #intro .points, .show-interest .membership #intro .points, .membership .show-interest #intro .points {
   margin-top: 125px;
@@ -10323,11 +10328,11 @@ h1,
 .our-cars #intro .navbar-container, .contact #intro .navbar-container, .terms #intro .navbar-container, .show-interest #intro .navbar-container {
   display: block;
   margin: 0 auto;
-  width: 926px;
+  width: 886px;
   margin-top: 20px;
 }
 .our-cars #intro .navbar-container .navbar-nav li, .contact #intro .navbar-container .navbar-nav li, .terms #intro .navbar-container .navbar-nav li, .show-interest #intro .navbar-container .navbar-nav li {
-  padding: 0 10px;
+  padding: 0 5px;
 }
 .our-cars #intro .navbar-container .navbar-nav li .btn-blue, .contact #intro .navbar-container .navbar-nav li .btn-blue, .terms #intro .navbar-container .navbar-nav li .btn-blue, .show-interest #intro .navbar-container .navbar-nav li .btn-blue {
   color: #fff;
@@ -10339,7 +10344,7 @@ h1,
 }
 .our-cars #intro .lead, .contact #intro .lead, .terms #intro .lead, .show-interest #intro .lead {
   font-size: 19px;
-  width: 675px;
+  width: 760px;
   margin: 0 auto;
 }
 .our-cars #intro .car-subtitle, .contact #intro .car-subtitle, .terms #intro .car-subtitle, .show-interest #intro .car-subtitle {
@@ -10546,7 +10551,7 @@ h1,
 }
 .driving-days #intro .left-block p, .club #intro .left-block p {
   float: left;
-  width: 470px;
+  width: 700px;
   margin-left: 43px;
 }
 .driving-days #intro .left-block .btn-container, .club #intro .left-block .btn-container {
@@ -10629,6 +10634,9 @@ h1,
 }
 .club #intro .left-block {
   margin-top: 25px;
+}
+.club #intro .right-block p {
+  margin-top: 10px;
 }
 .club #intro .first {
   margin-top: 100px;

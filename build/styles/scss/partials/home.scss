@@ -217,7 +217,7 @@ h1,
 
     .left-block {
       font-size: 19px;
-      width: 670px;
+      width: 770px;
       color: $white;
       margin: 0 auto;
       
@@ -226,6 +226,7 @@ h1,
       	float: left;
       	width: 800px;
         margin-bottom: 30px;
+        margin-top: 10px;
       }
 
       .icon {
@@ -238,6 +239,11 @@ h1,
 
       .btn-container {
         margin: 0 auto;
+        width: 199px;
+
+        &.memberships {
+          width: 252px;
+        }
 
 			.btn {
 				border-radius: 25px;
@@ -295,26 +301,26 @@ h1,
 
     .center-text {
     	text-align: left;
-    	clear: both;
+    	// clear: both;
     	color: $white;
     	font-size: 19px;
     	margin: 0 auto;
     	padding: 30px 0 30px 0;
       float: left;
-      margin-left: 238px;
+      margin-left: 185px;
     }
 
     .car-table-container {
-    	width: 750px;
-    	margin: 40px auto 35px auto;
+    	width: 780px;
+    	margin: 10px auto 35px auto;
 
     	table {
     		tr {
     			td {
     				.car-image {
     					img {
-    						width: 250px;
-    						height: 164px;
+    						width: 260px;
+    						height: 170px;
     					}
     				}
 
@@ -352,6 +358,7 @@ h1,
 
 .header-home {
     margin-top: 94px !important;
+    padding-top: 15px;
 }
 
 .header {
