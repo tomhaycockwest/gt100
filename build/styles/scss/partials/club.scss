@@ -1,6 +1,14 @@
 .club {
 	@extend .driving-days;
 
+	.header {
+		margin-top: 125px !important;
+	}
+
+	.lead {
+		width: 630px !important;
+	}
+
 	.our-cars-club {
 		margin-right: 133px !important;
 	}
@@ -26,6 +34,10 @@
 	#intro {
 		background: black; 
 		height: 1500px;
+
+		.left-block {
+			margin-top: 25px;
+		}
 
 		.first {
 			margin-top: 100px;

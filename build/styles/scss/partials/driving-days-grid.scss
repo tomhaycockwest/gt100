@@ -4,6 +4,10 @@
 	#intro {
 		background: url("#{$img-url}/driving-days-grid.jpg") 50% 0 no-repeat;
 
+		.header {
+			margin-top: 110px;
+		}
+
 		.lead {
 			font-size: 19px;
 			width: 575px;
@@ -11,6 +15,8 @@
 		}
 
 		.points-table-container {
+			margin-top: 30px;
+
 			table {
 				thead {
 					tr {
@@ -40,5 +46,9 @@
 .driving-days-footer {
 	.btn-container {
 		width: 180px !important;
+	}
+
+	p {
+		margin: 0 auto 20px auto !important;
 	}
 }

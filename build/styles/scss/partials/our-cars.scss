@@ -1,13 +1,17 @@
 .our-cars {
 	#intro {
 		background: url("#{$img-url}/our-cars-header.jpg") 50% 0 no-repeat; 
-		height: 650px;
+		height: 480px;
+
+		.header {
+			margin-top: 125px;
+		} 
 
 		.navbar-container {
 			display: block;
 			margin:0 auto;
 			width: 926px;
-			margin-top: 60px;
+			margin-top: 20px;
 
 			.navbar-nav {
 				li {
@@ -27,13 +31,13 @@
 
 		.lead {
 			font-size: 19px;
-			width: 510px;
+			width: 675px;
 			margin: 0 auto;
 		}
 
 		.car-subtitle {
 			@extend .header;
-			margin-top: 100px;
+			margin-top: 30px;
 		}
 	}
 

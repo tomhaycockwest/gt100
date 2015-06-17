@@ -10001,7 +10001,7 @@ h1,
 }
 
 #intro {
-  background: url("../img/home.jpg") 50% 0 no-repeat;
+  background: url("../img/home.jpg") 50% 0 no-repeat fixed;
   margin: -70px auto 0 auto;
   width: 100%;
   position: relative;
@@ -10010,16 +10010,15 @@ h1,
   font-size: 30px;
 }
 #intro .left-block {
-  float: left;
   font-size: 19px;
   width: 670px;
   color: #fff;
-  margin-top: 50px;
+  margin: 0 auto;
 }
 #intro .left-block p {
   float: left;
-  width: 470px;
-  margin-left: 43px;
+  width: 800px;
+  margin-bottom: 30px;
 }
 #intro .left-block .icon {
   background-image: url("../img/logo-circle.png");
@@ -10029,8 +10028,7 @@ h1,
   margin-left: 40px;
 }
 #intro .left-block .btn-container {
-  float: right;
-  margin-right: 155px;
+  margin: 0 auto;
 }
 #intro .left-block .btn-container .btn, #intro .left-block .btn-container .btn-translucent, #intro .left-block .btn-container .btn-blue {
   border-radius: 25px;
@@ -10046,13 +10044,13 @@ h1,
   font-size: 19px;
   width: 720px;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 20px;
 }
 #intro .right-block p {
   float: right;
   text-align: right;
-  width: 520px;
-  margin-right: 43px;
+  width: 745px;
+  margin-right: 115px;
 }
 #intro .right-block p.last-paragraph {
   margin-right: 200px;
@@ -10066,7 +10064,7 @@ h1,
 }
 #intro .right-block .btn-container {
   float: left;
-  margin-left: 155px;
+  margin-left: 38px;
 }
 #intro .right-block .btn-container .btn, #intro .right-block .btn-container .btn-translucent, #intro .right-block .btn-container .btn-blue {
   border-radius: 25px;
@@ -10078,13 +10076,14 @@ h1,
   padding-right: 30px;
 }
 #intro .center-text {
-  text-align: center;
+  text-align: left;
   clear: both;
   color: #fff;
   font-size: 19px;
-  width: 500px;
   margin: 0 auto;
-  padding-top: 75px;
+  padding: 30px 0 30px 0;
+  float: left;
+  margin-left: 238px;
 }
 #intro .car-table-container {
   width: 750px;
@@ -10120,7 +10119,7 @@ h1,
 }
 
 .header-home {
-  margin-top: 124px !important;
+  margin-top: 94px !important;
 }
 
 .header, .our-cars #intro .car-subtitle, .contact #intro .car-subtitle, .terms #intro .car-subtitle, .show-interest #intro .car-subtitle, .membership #intro .points {
@@ -10316,13 +10315,16 @@ h1,
 
 .our-cars #intro, .contact #intro, .terms #intro, .show-interest #intro {
   background: url("../img/our-cars-header.jpg") 50% 0 no-repeat;
-  height: 650px;
+  height: 480px;
+}
+.our-cars #intro .header, .contact #intro .header, .terms #intro .header, .show-interest #intro .header, .our-cars #intro .car-subtitle, .contact #intro .car-subtitle, .terms #intro .car-subtitle, .show-interest #intro .car-subtitle, .our-cars .membership #intro .points, .membership .our-cars #intro .points, .contact .membership #intro .points, .membership .contact #intro .points, .terms .membership #intro .points, .membership .terms #intro .points, .show-interest .membership #intro .points, .membership .show-interest #intro .points {
+  margin-top: 125px;
 }
 .our-cars #intro .navbar-container, .contact #intro .navbar-container, .terms #intro .navbar-container, .show-interest #intro .navbar-container {
   display: block;
   margin: 0 auto;
   width: 926px;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 .our-cars #intro .navbar-container .navbar-nav li, .contact #intro .navbar-container .navbar-nav li, .terms #intro .navbar-container .navbar-nav li, .show-interest #intro .navbar-container .navbar-nav li {
   padding: 0 10px;
@@ -10337,11 +10339,11 @@ h1,
 }
 .our-cars #intro .lead, .contact #intro .lead, .terms #intro .lead, .show-interest #intro .lead {
   font-size: 19px;
-  width: 510px;
+  width: 675px;
   margin: 0 auto;
 }
 .our-cars #intro .car-subtitle, .contact #intro .car-subtitle, .terms #intro .car-subtitle, .show-interest #intro .car-subtitle {
-  margin-top: 100px;
+  margin-top: 30px;
 }
 .our-cars .car-viewer-page-container .container .row .car-container, .contact .car-viewer-page-container .container .row .car-container, .terms .car-viewer-page-container .container .row .car-container, .show-interest .car-viewer-page-container .container .row .car-container {
   padding-left: 0;
@@ -10525,11 +10527,12 @@ h1,
   height: 1400px;
 }
 .driving-days #intro .header, .club #intro .header, .driving-days .our-cars #intro .car-subtitle, .our-cars .driving-days #intro .car-subtitle, .club .our-cars #intro .car-subtitle, .our-cars .club #intro .car-subtitle, .driving-days .contact #intro .car-subtitle, .contact .driving-days #intro .car-subtitle, .club .contact #intro .car-subtitle, .contact .club #intro .car-subtitle, .driving-days .terms #intro .car-subtitle, .terms .driving-days #intro .car-subtitle, .club .terms #intro .car-subtitle, .terms .club #intro .car-subtitle, .driving-days .show-interest #intro .car-subtitle, .show-interest .driving-days #intro .car-subtitle, .club .show-interest #intro .car-subtitle, .show-interest .club #intro .car-subtitle, .driving-days .membership #intro .points, .membership .driving-days #intro .points, .club .membership #intro .points, .membership .club #intro .points {
-  margin-top: 160px;
+  margin-top: 125px;
 }
 .driving-days #intro .header .lead, .club #intro .header .lead, .driving-days .our-cars #intro .car-subtitle .lead, .our-cars .driving-days #intro .car-subtitle .lead, .club .our-cars #intro .car-subtitle .lead, .our-cars .club #intro .car-subtitle .lead, .driving-days .contact #intro .car-subtitle .lead, .contact .driving-days #intro .car-subtitle .lead, .club .contact #intro .car-subtitle .lead, .contact .club #intro .car-subtitle .lead, .driving-days .terms #intro .car-subtitle .lead, .terms .driving-days #intro .car-subtitle .lead, .club .terms #intro .car-subtitle .lead, .terms .club #intro .car-subtitle .lead, .driving-days .show-interest #intro .car-subtitle .lead, .show-interest .driving-days #intro .car-subtitle .lead, .club .show-interest #intro .car-subtitle .lead, .show-interest .club #intro .car-subtitle .lead, .driving-days .membership #intro .points .lead, .membership .driving-days #intro .points .lead, .club .membership #intro .points .lead, .membership .club #intro .points .lead {
   text-align: center;
   margin: 0 auto;
+  width: 625px;
 }
 .driving-days #intro .header .btn-blue, .club #intro .header .btn-blue, .driving-days .our-cars #intro .car-subtitle .btn-blue, .our-cars .driving-days #intro .car-subtitle .btn-blue, .club .our-cars #intro .car-subtitle .btn-blue, .our-cars .club #intro .car-subtitle .btn-blue, .driving-days .contact #intro .car-subtitle .btn-blue, .contact .driving-days #intro .car-subtitle .btn-blue, .club .contact #intro .car-subtitle .btn-blue, .contact .club #intro .car-subtitle .btn-blue, .driving-days .terms #intro .car-subtitle .btn-blue, .terms .driving-days #intro .car-subtitle .btn-blue, .club .terms #intro .car-subtitle .btn-blue, .terms .club #intro .car-subtitle .btn-blue, .driving-days .show-interest #intro .car-subtitle .btn-blue, .show-interest .driving-days #intro .car-subtitle .btn-blue, .club .show-interest #intro .car-subtitle .btn-blue, .show-interest .club #intro .car-subtitle .btn-blue, .driving-days .membership #intro .points .btn-blue, .membership .driving-days #intro .points .btn-blue, .club .membership #intro .points .btn-blue, .membership .club #intro .points .btn-blue {
   color: #fff;
@@ -10539,7 +10542,7 @@ h1,
   font-size: 19px;
   width: 670px;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 .driving-days #intro .left-block p, .club #intro .left-block p {
   float: left;
@@ -10596,6 +10599,12 @@ h1,
   margin-bottom: 0;
 }
 
+.club .header, .club .our-cars #intro .car-subtitle, .our-cars #intro .club .car-subtitle, .club .contact #intro .car-subtitle, .contact #intro .club .car-subtitle, .club .terms #intro .car-subtitle, .terms #intro .club .car-subtitle, .club .show-interest #intro .car-subtitle, .show-interest #intro .club .car-subtitle, .club .membership #intro .points, .membership #intro .club .points {
+  margin-top: 125px !important;
+}
+.club .lead {
+  width: 630px !important;
+}
 .club .our-cars-club {
   margin-right: 133px !important;
 }
@@ -10617,6 +10626,9 @@ h1,
 .club #intro {
   background: black;
   height: 1500px;
+}
+.club #intro .left-block {
+  margin-top: 25px;
 }
 .club #intro .first {
   margin-top: 100px;
@@ -10640,11 +10652,11 @@ h1,
   height: 877px;
 }
 .membership #intro .header, .membership .our-cars #intro .car-subtitle, .our-cars .membership #intro .car-subtitle, .membership .contact #intro .car-subtitle, .contact .membership #intro .car-subtitle, .membership .terms #intro .car-subtitle, .terms .membership #intro .car-subtitle, .membership .show-interest #intro .car-subtitle, .show-interest .membership #intro .car-subtitle, .membership #intro .points {
-  margin-top: 140px;
+  margin-top: 110px;
 }
 .membership #intro .lead {
   text-align: center;
-  margin: 20px auto;
+  margin: 10px auto;
   width: 730px;
   color: #fff;
 }
@@ -11097,10 +11109,16 @@ h1,
 .driving-days-grid #intro {
   background: url("../img/driving-days-grid.jpg") 50% 0 no-repeat;
 }
+.driving-days-grid #intro .header, .driving-days-grid .our-cars #intro .car-subtitle, .our-cars .driving-days-grid #intro .car-subtitle, .driving-days-grid .contact #intro .car-subtitle, .contact .driving-days-grid #intro .car-subtitle, .driving-days-grid .terms #intro .car-subtitle, .terms .driving-days-grid #intro .car-subtitle, .driving-days-grid .show-interest #intro .car-subtitle, .show-interest .driving-days-grid #intro .car-subtitle, .driving-days-grid .membership #intro .points, .membership .driving-days-grid #intro .points {
+  margin-top: 110px;
+}
 .driving-days-grid #intro .lead {
   font-size: 19px;
   width: 575px;
   margin: 0 auto;
+}
+.driving-days-grid #intro .points-table-container {
+  margin-top: 30px;
 }
 .driving-days-grid #intro .points-table-container table thead tr th {
   text-align: left !important;
@@ -11116,4 +11134,7 @@ h1,
 
 .driving-days-footer .btn-container {
   width: 180px !important;
+}
+.driving-days-footer p {
+  margin: 0 auto 20px auto !important;
 }

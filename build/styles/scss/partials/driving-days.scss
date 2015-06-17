@@ -5,11 +5,12 @@
 		background: url("#{$img-url}/club.jpg") 50% 0 no-repeat; 
 		height: 1400px;
 		.header {
-			margin-top: 160px;
+			margin-top: 125px;
 
 			.lead {
 				text-align: center;
 				margin: 0 auto;
+				width: 625px;
 			}
 
 			.btn-blue {
@@ -23,7 +24,7 @@
 		      font-size: 19px;
 		      width: 670px;
 		      color: $white;
-		      margin-top: 50px;
+		      margin-top: 25px;
 
 		      p {
 		      	float: left;
