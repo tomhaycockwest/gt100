@@ -1,9 +1,31 @@
 .club {
-	@extend .getting-married;
+	@extend .driving-days;
+
+	.our-cars-club {
+		margin-right: 133px !important;
+	}
+
+	.quattro {
+		background: url("#{$img-url}/quattro.png") 50% 0 no-repeat;
+		height: 429px;
+		width: 1170px;
+	}
+
+	.bmw {
+		background: url("#{$img-url}/bmw.png") 50% 0 no-repeat;
+		height: 411px;
+		width: 1170px;
+	}
+
+	.ghibli {
+		background: url("#{$img-url}/ghibli.png") 50% 0 no-repeat;
+		height: 312px;
+		width: 1170px;
+	}
 
 	#intro {
-		background: url("#{$img-url}/club.jpg") 50% 0 no-repeat; 
-		height: 1332px;
+		background: black; 
+		height: 1500px;
 
 		.first {
 			margin-top: 100px;

@@ -93,6 +93,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/app\/assets\/img\/bmw.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 626579,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/bmw.png",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/bmw.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/app\/assets\/img\/book-your-car.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -210,6 +221,17 @@
 		"initialSize": 2.01799e+06,
 		"inputAbbreviatedPath": "\/app\/assets\/img\/getting-married-mid.jpg",
 		"outputAbbreviatedPath": "\/app\/assets\/img\/getting-married-mid.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/ghibli.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 299557,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/ghibli.png",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/ghibli.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -375,6 +397,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/app\/assets\/img\/pricing-matrix.png",
 		"outputAbbreviatedPath": "\/app\/assets\/img\/pricing-matrix.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/app\/assets\/img\/quattro.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 208119,
+		"inputAbbreviatedPath": "\/app\/assets\/img\/quattro.png",
+		"outputAbbreviatedPath": "\/app\/assets\/img\/quattro.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
