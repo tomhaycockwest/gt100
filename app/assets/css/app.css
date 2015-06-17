@@ -10087,12 +10087,12 @@ h1,
   padding-top: 75px;
 }
 #intro .car-table-container {
-  width: 575px;
+  width: 750px;
   margin: 40px auto 35px auto;
 }
 #intro .car-table-container table tr td .car-image img {
-  width: 192px;
-  height: 126px;
+  width: 250px;
+  height: 164px;
 }
 #intro .car-table-container table tr td .car-title {
   font-size: 16px;
@@ -10301,6 +10301,7 @@ h1,
   color: white;
   min-width: 64px;
   left: 13px;
+  top: 55px;
 }
 .dropdown-menu li:nth-child(2),
 .dropdown-menu:active li:nth-child(2) {
@@ -10637,6 +10638,9 @@ h1,
 .membership #intro {
   background: url("../img/membership.jpg") 50% 0 no-repeat;
   height: 877px;
+}
+.membership #intro .header, .membership .our-cars #intro .car-subtitle, .our-cars .membership #intro .car-subtitle, .membership .contact #intro .car-subtitle, .contact .membership #intro .car-subtitle, .membership .terms #intro .car-subtitle, .terms .membership #intro .car-subtitle, .membership .show-interest #intro .car-subtitle, .show-interest .membership #intro .car-subtitle, .membership #intro .points {
+  margin-top: 140px;
 }
 .membership #intro .lead {
   text-align: center;
