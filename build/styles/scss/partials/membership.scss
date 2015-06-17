@@ -5,6 +5,13 @@
 		background: url("#{$img-url}/membership.jpg") 50% 0 no-repeat; 
 		height: 877px;
 
+		.lead {
+			text-align: center;
+			margin: 20px auto;
+			width: 730px;
+			color: $white;
+		}
+
 		.membership-block-container {
 			@extend .col-xs-8;
 			@extend .center-block;
@@ -69,10 +76,16 @@
 			text-align: center;
 		}
 
-		.btn-blue {
-			@extend .h2;
-			color: $white;
+		.btn-container {
+			width: 350px;
+
+			.btn-blue {
+				@extend .h2;
+				color: $white;
+				font-size: 20px;
+			}
 		}
+		
 
 		.points {
 			@extend .header;
