@@ -2,63 +2,96 @@
 	@extend .getting-married;
 
 	#intro {
-		background: url("#{$img-url}/driving-days-header.jpg") 50% 0 no-repeat; 
-
+		background: url("#{$img-url}/club.jpg") 50% 0 no-repeat; 
+		height: 1400px;
 		.header {
+			margin-top: 160px;
+
+			.lead {
+				text-align: center;
+				margin: 0 auto;
+			}
+
 			.btn-blue {
 				@extend .h2;
 				color: $white;
 			}
 		}
 
-		#moreInfo {
-			position: absolute;
-			bottom: 105px;
-		}
-	}
+		    .left-block {
+		      float: left;
+		      font-size: 19px;
+		      width: 670px;
+		      color: $white;
+		      margin-top: 50px;
 
-	.parallax {
-		background-image: url("#{$img-url}/driving-days-mid.jpg");
-	    background-repeat: no-repeat;
-	    background-attachment: fixed;
-	    background-position: 50% 0; 
-		height: 627px;
-		padding: 100px 0;
+		      p {
+		      	float: left;
+		      	width: 470px;
+		      	margin-left: 43px;
+		      }
 
-		.row {
-			margin-top: 20px;
+		      .btn-container {
+		      	float: left;
+		      	margin-left: 140px;
 
-			h2 {
-				text-align: center;
-				color: $white;
-			}
+					.btn {
+						border-radius: 25px;
+						color: $black;
+						background: $btnblue;
+						font-size: 20px;
+						color: $white;
+						padding-left: 30px;
+						padding-right: 30px;
+					}
+				}
+		    }
 
-			.btn-container {
-				padding-top: 0 !important;
-				width: 242px;
-			}
-		}
-	}
+		    .right-block {
+		      float: right;
+		      font-size: 19px;
+		      width: 720px;
+		      color: $white;
+		      margin-top: 50px;
 
-	.driving-day-info {
-		@extend .parallax;
-		background: black;
-		height: 350px;
-		padding-top: 20px;
-		padding-bottom: 0;
+		      p {
+		      	float: right;
+		      	text-align: right;
+		      	width: 520px;
+		      	margin-right: 43px;
 
-		.row {
+		      	&.last-paragraph {
+		      		margin-right: 200px;
+		      	}
+		      }
 
-			h4 {
-				color: $white;
-				max-width: 60%;
-				margin: 0 auto;
-			}
+	            .btn-container {
+	            	float: right;
+	            	margin-right: 270px;
 
-			.btn-container {
-				padding-top: 0 !important;
-				width: 270px;
-			}
-		}
+	            	&.our-cars {
+	            		margin-right: 191px;
+	            	}
+
+	      			.btn {
+	      				border-radius: 25px;
+	      				color: $black;
+	      				background: $btnblue;
+	      				font-size: 20px;
+	      				color: $white;
+	      				padding-left: 30px;
+	      				padding-right: 30px;
+	      			}
+	      		}
+		  }
 	}
 }
+
+#drivingPageInfo {
+	@extend #drivingDayInfo;
+	margin-bottom: 0;
+}
+
+// .driving-day-footer {
+// 	height: 411px !important;
+// }
