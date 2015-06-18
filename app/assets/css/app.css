@@ -10551,8 +10551,9 @@ h1,
 }
 .driving-days #intro .left-block p, .club #intro .left-block p {
   float: left;
-  width: 700px;
+  width: 718px;
   margin-left: 43px;
+  margin-bottom: 10px;
 }
 .driving-days #intro .left-block .btn-container, .club #intro .left-block .btn-container {
   float: left;
@@ -10572,13 +10573,14 @@ h1,
   font-size: 19px;
   width: 720px;
   color: #fff;
-  margin-top: 50px;
+  margin-top: 70px;
 }
 .driving-days #intro .right-block p, .club #intro .right-block p {
   float: right;
   text-align: right;
   width: 520px;
   margin-right: 43px;
+  margin-bottom: 0;
 }
 .driving-days #intro .right-block p.last-paragraph, .club #intro .right-block p.last-paragraph {
   margin-right: 200px;
@@ -10636,10 +10638,12 @@ h1,
   margin-top: 25px;
 }
 .club #intro .left-block p {
-  width: 470px;
+  width: 515px;
+  margin-bottom: 10px;
 }
 .club #intro .right-block p {
   margin-top: 10px;
+  margin-bottom: 0;
 }
 .club #intro .first {
   margin-top: 100px;
@@ -11130,6 +11134,7 @@ h1,
 }
 .driving-days-grid #intro .points-table-container {
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 .driving-days-grid #intro .points-table-container table thead tr th {
   text-align: left !important;
@@ -11141,6 +11146,10 @@ h1,
   text-align: left !important;
   font-size: 20px;
   padding: 10px;
+}
+.driving-days-grid #intro .joining-fee {
+  color: #fff;
+  text-align: center;
 }
 
 .driving-days-footer .btn-container {

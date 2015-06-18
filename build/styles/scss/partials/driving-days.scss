@@ -28,8 +28,9 @@
 
 		      p {
 		      	float: left;
-		      	width: 700px;
+		      	width: 718px;
 		      	margin-left: 43px;
+		      	margin-bottom: 10px;
 		      }
 
 		      .btn-container {
@@ -53,13 +54,14 @@
 		      font-size: 19px;
 		      width: 720px;
 		      color: $white;
-		      margin-top: 50px;
+		      margin-top: 70px;
 
 		      p {
 		      	float: right;
 		      	text-align: right;
 		      	width: 520px;
 		      	margin-right: 43px;
+		      	margin-bottom: 0;
 
 		      	&.last-paragraph {
 		      		margin-right: 200px;
