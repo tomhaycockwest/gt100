@@ -10804,6 +10804,9 @@ h1,
 .terms #intro p {
   color: #fff;
 }
+.terms #intro p.first {
+  margin-top: 70px;
+}
 
 .points-calculator #intro, .pricing-matrix #intro, .driving-days-grid #intro {
   background: url("../img/points-calculator.jpg") 50% 0 no-repeat;

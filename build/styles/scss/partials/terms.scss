@@ -11,6 +11,10 @@
 
 		p {
 			color: $white;
+
+			&.first {
+				margin-top: 70px;
+			}
 		}
 	}
 }
