@@ -35,6 +35,11 @@
 							text-align: left !important;
 							font-size: 20px;
 							padding: 10px;
+							white-space: normal !important;
+
+							&.no-border-left {
+								width: 240px;
+							}
 						}
 					}
 				}
@@ -52,9 +57,14 @@
 .driving-days-footer {
 	.btn-container {
 		width: 180px !important;
+		margin-bottom: 20px !important;
 	}
 
 	p {
 		margin: 0 auto 20px auto !important;
+	}
+
+	.joining-fee {
+		font-size: 14px !important;
 	}
 }
