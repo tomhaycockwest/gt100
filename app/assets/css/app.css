@@ -11163,6 +11163,7 @@ h1,
 .pricing-matrix #intro .points-table-container {
   width: 1077px;
   padding: 15px 55px 30px 55px;
+  margin-top: 20px;
 }
 .pricing-matrix #intro .points-table-container .table {
   text-align: center;
