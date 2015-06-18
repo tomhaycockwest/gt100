@@ -10807,6 +10807,12 @@ h1,
 .terms #intro p.first {
   margin-top: 70px;
 }
+.terms #intro .car-table {
+  background: url("../img/car-table.png") 50% 0 no-repeat;
+  width: 338px;
+  height: 471px;
+  margin: 20px auto;
+}
 
 .points-calculator #intro, .pricing-matrix #intro, .driving-days-grid #intro {
   background: url("../img/points-calculator.jpg") 50% 0 no-repeat;
