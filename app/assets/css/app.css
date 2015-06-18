@@ -10613,7 +10613,7 @@ h1,
   width: 630px !important;
 }
 .club .our-cars-club {
-  margin-right: 133px !important;
+  margin-right: 140px !important;
 }
 .club .quattro {
   background: url("../img/quattro.png") 50% 0 no-repeat;
@@ -11147,13 +11147,13 @@ h1,
 }
 .driving-days-grid #intro .points-table-container table thead tr th {
   text-align: left !important;
-  font-size: 24px;
+  font-size: 20px;
   color: #9dd8f3;
   padding: 10px;
 }
 .driving-days-grid #intro .points-table-container table tbody tr td {
   text-align: left !important;
-  font-size: 20px;
+  font-size: 16px;
   padding: 10px;
   white-space: normal !important;
 }
